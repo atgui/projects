@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BullOtherPlayerPopupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wr_otherPlayer_bg_png" scale9Grid="140,97,286,179" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="closeButton" source="common_close_png" x="602" y="-6.3"/>
+	<e:Image source="wr_otherPlayer_tapBg_png" y="63" horizontalCenter="0.5" visible="false"/>
+	<e:Label id="userCountLabel" text="80" x="390" y="17" anchorOffsetX="0" width="44" bold="true" size="18" textAlign="center"/>
+	<e:Scroller id="playerInfoScroller" anchorOffsetX="0" anchorOffsetY="0" width="570" height="445" verticalCenter="18.5" horizontalCenter="0"/>
+</e:Skin>

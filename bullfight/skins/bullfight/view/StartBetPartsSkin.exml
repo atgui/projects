@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartBetPartsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="183" width="690">
+	<e:Image source="wr_start_bet_png" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

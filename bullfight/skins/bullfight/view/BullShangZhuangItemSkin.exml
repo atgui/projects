@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BullShangZhuangItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="sz_shangzhuang_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="sz_zt_png" x="4" verticalCenter="0"/>
+	<e:Label id="usernameLabel" text="系统庄家" x="50" anchorOffsetX="0" width="180" verticalCenter="0" bold="true" size="20"/>
+	<e:Label id="goldLabel" text="20000000000" x="250" anchorOffsetX="0" width="130" verticalCenter="0" size="18"/>
+	<e:Image source="common_gold_png" x="385" verticalCenter="0.5"/>
+</e:Skin>

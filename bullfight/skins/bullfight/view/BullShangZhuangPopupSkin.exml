@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BullShangZhuangPopupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="513" height="485">
+	<e:Image source="sz_bg_png" anchorOffsetX="0" verticalCenter="0" horizontalCenter="0"/>
+	<e:Image id="upMasterButton" source="sz_wysz_png" y="419" horizontalCenter="0"/>
+	<e:Label id="infoLbael" text="金币在2000万以上可上庄" y="391" anchorOffsetX="0" size="20" bold="true" horizontalCenter="0"/>
+	<e:Scroller id="masterScroller" width="419" height="300" x="44" y="64" anchorOffsetX="0" anchorOffsetY="0">
+		<e:List id="masterList"/>
+	</e:Scroller>
+	<e:Image id="closeButton" source="common_close_png" x="465" y="-10"/>
+</e:Skin>

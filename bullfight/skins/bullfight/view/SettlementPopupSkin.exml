@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettlementPopupSkin" width="589" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:euiExtend="euiExtend.*">
+	<e:Group width="589" height="720" anchorOffsetX="0" y="0" anchorOffsetY="0" x="0">
+		<e:Image left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" source="wr_bg_png"/>
+		<e:Image id="winBg" y="-129.56" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="wr_result_win_png" horizontalCenter="-0.5" height="271.48"/>
+		<euiExtend:ButtonExtend id="closeBtn" label="" x="544" y="-16" width="65" height="65" visible="false">
+			<euiExtend:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="common_close_png" source.down="common_close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</euiExtend:skinName>
+		</euiExtend:ButtonExtend>
+		<e:Label id="totalCountLabel" text="2000" y="536" fontFamily="Microsoft YaHei" bold="true" anchorOffsetX="0" textAlign="center" textColor="0xf7ef8f" horizontalCenter="0"/>
+		<e:Scroller width="494" height="290.79" x="52" y="158.55" anchorOffsetY="0">
+			<e:List id="settlementList" anchorOffsetY="0" height="292.31" x="0" y="53.03"/>
+		</e:Scroller>
+		<e:Label id="bankerCountLabel" text="500" y="662" fontFamily="Microsoft YaHei" bold="true" textAlign="center" anchorOffsetX="0" size="30" textColor="0xf7ef8f" horizontalCenter="0"/>
+		<e:Image source="wr_zhuang_score_bg_png" y="603.01" horizontalCenter="0"/>
+		<e:Image source="wr_zhuang_png" x="219.67" y="608.33"/>
+		<e:Label text="庄家得分" x="254.67" y="605.67" anchorOffsetY="0" height="39.33" anchorOffsetX="0" width="119.33" textColor="0xfff000" bold="true" verticalAlign="middle" size="28"/>
+		<e:Label text="个人得分" y="482.34" anchorOffsetY="0" height="39.33" anchorOffsetX="0" width="119.33" textColor="0xFFF000" bold="true" verticalAlign="middle" size="28" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

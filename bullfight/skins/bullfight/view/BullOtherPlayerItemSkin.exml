@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BullOtherPlayerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="280" height="90">
+	<e:Image source="wr_otherPlayer_listBg_png" scale9Grid="33,10,92,23" left="0" right="0" top="0" bottom="0" height="90"/>
+	<e:Image id="icon" source="wr_otherPlayer_header_png" width="64" height="64" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" x="7"/>
+	<e:Label id="usernameLabel" text="名字" size="20" anchorOffsetX="0" width="200" bold="true" height="20" y="5" right="0"/>
+	<e:Label id="goldLabel" text="9999999999" y="29" size="16" anchorOffsetX="0" width="200" textColor="0xd35d35" anchorOffsetY="0" height="18" bold="true" right="0"/>
+	<e:Label id="signatureLabel" text="个性签名个性签名个性签名个性签名个性签名个性签名个性签名" y="50" size="16" anchorOffsetX="0" width="200" anchorOffsetY="0" height="35" bold="true" right="0" lineSpacing="3" textColor="0xfcfaf9"/>
+</e:Skin>

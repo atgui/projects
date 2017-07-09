@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="loading_ditu_png" rotation="0" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="loadingImg" source="loading_guangquan_png" width="364" height="364" y="417.67" x="184.67"/>
+	<e:BitmapLabel id="loadingNumLabel" width="248" height="108" anchorOffsetX="0" anchorOffsetY="0" text="0" font="font_3_fnt" textAlign="center" horizontalCenter="6" verticalCenter="-42"/>
+</e:Skin>

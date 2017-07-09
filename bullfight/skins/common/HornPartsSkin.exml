@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HornPartsSkin" width="614" height="79" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tongzi_shading_bg_png" x="0" y="13" touchEnabled="false"/>
+	<e:Image id="hornIco" source="hall_ico_sound_png" y="0" x="105.3" scaleX="-1" touchEnabled="false"/>
+	<e:Label id="infoLabel" text="钻石喇叭提示：恭" x="107" anchorOffsetX="0" width="400" textAlign="left" size="20" fontFamily="Microsoft YaHei" y="29.5" multiline="false" touchEnabled="false"/>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerInfoPopupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wr_otherPlayer_bg_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="headerIcon" source="header_png" x="62" y="91" width="96" height="96"/>
+	<e:Label id="nickNameLabel" text="Label" x="189" y="89" anchorOffsetY="0" height="34.55" anchorOffsetX="0" width="383.09"/>
+	<e:Label id="goldLabel" text="Label" x="189" y="138.5" anchorOffsetY="0" height="34.55" anchorOffsetX="0" width="383.09"/>
+	<e:EditableText id="signatureEditableText" width="446.97" height="143.94" text="Label" x="109.5" y="276" anchorOffsetX="0" multiline="true" anchorOffsetY="0" border="true" lineSpacing="5" prompt="修改签名,24字以内" promptColor="0x000000"/>
+	<e:Label text="个性签名" x="114" y="232.16"/>
+	<e:Label id="updateButton" text="修改" x="440" y="443.64" background="true" backgroundColor="0x000000" bold="true" border="true"/>
+    <e:Label id="clearButton" text="取消" x="517.47" y="443.64" background="true" backgroundColor="0x000000" bold="true" border="true"/>
+</e:Skin>

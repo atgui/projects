@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BankerListItemSkin" width="494" height="94" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:common="common.*">
+	<e:Image width="494" x="0" top="0" bottom="0" source="wr_result_item_bg_png"/>
+	<common:CommonHead id="headIcon" width="88" height="86" x="7.04" skinName="CommonHeadSkin" verticalCenter="0"/>
+	<e:Label id="nickNameLabel" text="系统" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" width="218.55" size="26" x="109.45" strokeColor="0x000000" verticalCenter="0" anchorOffsetY="0" height="51.77" verticalAlign="middle"/>
+	<e:Label id="goldLabel" text="100000000" x="338" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" width="150" size="26" verticalCenter="0"/>
+</e:Skin>

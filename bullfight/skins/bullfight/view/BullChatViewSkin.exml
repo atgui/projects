@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BullChatViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="chatGroup" y="680" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" right="0">
+		<e:Image source="chat_bg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image id="chatTap_0" x="70" y="10" source="chat_0_0_png"/>
+		<e:Image id="chatTap_1" x="240" y="10" source="chat_1_1_png"/>
+		<e:Image source="chat_input_bg_png" x="13" y="351"/>
+		<e:Group id="group_1" width="336" height="279" y="61" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5">
+		<e:Scroller id="scroller_1" width="330" height="270" y="8" anchorOffsetX="0" horizontalCenter="0" anchorOffsetY="0" x="8" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="group_0" width="336" height="279" y="61" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5">
+		<e:Scroller id="scroller_0" width="330" height="270" y="6" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:TextInput id="chatInput" width="228" height="35" x="20" y="356" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" prompt="请输入内容"/>
+		<e:Image id="chatSendButton" source="chat_send_png" x="257" y="353"/>
+	</e:Group>
+</e:Skin>
