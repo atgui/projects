@@ -1,0 +1,5 @@
+class ToolUtils {
+	public constructor() {
+	}
+
+}
