@@ -1,0 +1,4625 @@
+{
+	"groups": [
+		{
+			"keys": "login_bg_png,login_denglu_png,login_dengluBt_0_png,login_dengluBt_1_png,login_zhucheBt_0_png,login_zhucheBt_1_png,fightbull_bg_png,header_png,wr_bg_png,wr_chat_bg_png,wr_desk_bg_png,wr_fangkuai_png,wr_gold_x_png,wr_hetao_png,wr_hongtao_png,wr_jiangcbg_png,wr_meihua_png,wr_name_bg_png,wr_qxz_png,wr_result_item_bg_png,wr_result_lose_png,wr_result_win_png,wr_select_check_png,wr_sz_png,wr_sz_bg_png,wr_tjb_bg_png,wr_xianjia_png,wr_xxyx_png,wr_zhuang_png,wr_zhuang_bg_png,wr_zhuang_score_bg_png,wr_zhuangIcon_png,input_png,login_button_png",
+			"name": "login"
+		},
+		{
+			"keys": "blnn_ftp_0_png,blnn_ftp_1_png,blnn_ftp_10_png,blnn_ftp_2_png,blnn_ftp_3_png,blnn_ftp_4_png,blnn_ftp_5_png,blnn_ftp_6_png,blnn_ftp_7_png,blnn_ftp_8_png,blnn_ftp_9_png,cardmax_1_1_png,cardmax_1_10_png,cardmax_1_11_png,cardmax_1_12_png,cardmax_1_13_png,cardmax_1_2_png,cardmax_1_3_png,cardmax_1_4_png,cardmax_1_5_png,cardmax_1_6_png,cardmax_1_7_png,cardmax_1_8_png,cardmax_1_9_png,cardmax_2_1_png,cardmax_2_10_png,cardmax_2_11_png,cardmax_2_12_png,cardmax_2_13_png,cardmax_2_2_png,cardmax_2_3_png,cardmax_2_4_png,cardmax_2_5_png,cardmax_2_6_png,cardmax_2_7_png,cardmax_2_8_png,cardmax_2_9_png,cardmax_3_1_png,cardmax_3_10_png,cardmax_3_11_png,cardmax_3_12_png,cardmax_3_13_png,cardmax_3_2_png,cardmax_3_3_png,cardmax_3_4_png,cardmax_3_5_png,cardmax_3_6_png,cardmax_3_7_png,cardmax_3_8_png,cardmax_3_9_png,cardmax_4_1_png,cardmax_4_10_png,cardmax_4_11_png,cardmax_4_12_png,cardmax_4_13_png,cardmax_4_2_png,cardmax_4_3_png,cardmax_4_4_png,cardmax_4_5_png,cardmax_4_6_png,cardmax_4_7_png,cardmax_4_8_png,cardmax_4_9_png,cardmin_1_1_png,cardmin_1_10_png,cardmin_1_11_png,cardmin_1_12_png,cardmin_1_13_png,cardmin_1_2_png,cardmin_1_3_png,cardmin_1_4_png,cardmin_1_5_png,cardmin_1_6_png,cardmin_1_7_png,cardmin_1_8_png,cardmin_1_9_png,cardmin_2_1_png,cardmin_2_10_png,cardmin_2_11_png,cardmin_2_12_png,cardmin_2_13_png,cardmin_2_2_png,cardmin_2_3_png,cardmin_2_4_png,cardmin_2_5_png,cardmin_2_6_png,cardmin_2_7_png,cardmin_2_8_png,cardmin_2_9_png,cardmin_3_1_png,cardmin_3_10_png,cardmin_3_11_png,cardmin_3_12_png,cardmin_3_13_png,cardmin_3_2_png,cardmin_3_3_png,cardmin_3_4_png,cardmin_3_5_png,cardmin_3_6_png,cardmin_3_7_png,cardmin_3_8_png,cardmin_3_9_png,cardmin_4_1_png,cardmin_4_10_png,cardmin_4_11_png,cardmin_4_12_png,cardmin_4_13_png,cardmin_4_2_png,cardmin_4_3_png,cardmin_4_4_png,cardmin_4_5_png,cardmin_4_6_png,cardmin_4_7_png,cardmin_4_8_png,cardmin_4_9_png,blnn_ftp_11_png,blnn_ftp_12_png,blnn_ftp_13_png,blackjack_chips_10_png,blackjack_chips_100_png,blackjack_chips_30_png,blackjack_chips_300_png,blackjack_chips_50_png,card_bg_png,fightbull_bg_png,header_png,wr_desk_bg_png,wr_fangkuai_png,wr_hetao_png,wr_hongtao_png,wr_jiangcbg_png,wr_meihua_png,wr_name_bg_png,wr_select_check_png,wr_sz_png,wr_sz_bg_png,wr_tjb_bg_png,wr_xianjia_png,wr_zhuangIcon_png,wr_zhuang_bg_png,wr_gold_x_png,wr_result_item_bg_png,wr_result_lose_png,wr_result_win_png,wr_zhuang_png,wr_zhuang_score_bg_png,wr_bg_png,wr_chat_bg_png,winEff_png,winEff_json,wr_otherPlayer_bg_png,wr_otherPlayer_listBg_png,wr_otherPlayer_header_png,wr_qxz_png,wr_xxyx_png,chat_8_png,chat_1_png,chat_10_png,chat_11_png,chat_12_png,chat_2_png,chat_3_png,chat_4_png,chat_5_png,chat_6_png,chat_7_png,chat_9_png,chat_bg_png,chat_input_bg_png,chat_send_png,chat_wz_bg_png,chat_0_0_png,chat_0_1_png,chat_13_png,chat_14_png,chat_1_0_png,chat_1_1_png,wr_sl_png,dingzi_kaishixiazhu_02_png,dingzi_kaishixiazhu_12_png,tishi_kaishixiazhu_02_png,tishi_kaishixiazhu_12_png,tishi_kaishixiazhu_22_png,tishi_kaishixiazhu_32_png,sz_bg_png,sz_shangzhuang_bg_png,sz_wysz_png,sz_zt_png,fightbull_bg_0_png,wr_chip_fangkuai_png,wr_chip_hetao_png,wr_chip_hongtao_png,wr_chip_meihua_png,wr_desk_bg_0_png,wr_otherPlayer_tapBg_png,wr_select_check_0_png,wr_start_bet_png,wr_stop_bet_png,blackjack_chips_check_10_png,blackjack_chips_check_100_png,blackjack_chips_check_30_png,blackjack_chips_check_300_png,blackjack_chips_check_50_png",
+			"name": "bullfight"
+		},
+		{
+			"keys": "dnmain_shading_head_png,piachuangkuang_png,tongyongkuang_png,nenliangtiao_1_png,common_gold_png,common_help_png,common_notice_png,common_pup_png,common_setting_png,common_shop_png,common_sound_bg_png,common_xt_png,common_add_png,common_close_png,com_btn_ok_png,com_btn_ok_no_png,common_chouma_png,dnmain_close_png,dnmain_close_yes_png,dnmain_profile_boy_png,dnmain_profile_girl_png,meilizhi_png,nenliangtiao_0_png,shenwang_png,zhuanshi_png",
+			"name": "common"
+		},
+		{
+			"keys": "niu_0_mp3,niu_1_mp3,niu_10_mp3,niu_11_mp3,niu_12_mp3,niu_13_mp3,niu_2_mp3,niu_3_mp3,niu_4_mp3,niu_5_mp3,niu_6_mp3,niu_7_mp3,niu_8_mp3,niu_9_mp3,Licensing_mp3,Licensing1_mp3,Licensing2_mp3,addgold_mp3,applause_mp3,bg_music_mp3,button1_mp3,button2_mp3,button3_mp3,buy_mp3,callfemale_mp3,callmale_mp3,camera_mp3,chair_mp3,checkfemale_mp3,checkmale_mp3,chip_mp3,chip2_mp3,currentround_mp3,dialogue_mp3,discardfemale_mp3,discardmale_mp3,exit_mp3,fail_mp3,fillfemale_mp3,fillmale_mp3,flop_mp3,game_bg_music_mp3,return_mp3,sitdown_mp3,time_mp3,touch_mp3,tunk_mp3,winpromt_mp3,winvictory_mp3,luckDrawRun_mp3,missionWin_mp3,missionLose_mp3,start_bet_mp3,stop_bet_mp3",
+			"name": "sound"
+		},
+		{
+			"keys": "loading_ditu_png,loading_guangquan_png,loading_wangniuhonghong_png",
+			"name": "loading"
+		},
+		{
+			"keys": "font_3_fnt,font_3_png,font_wr_fnt,font_wr_png",
+			"name": "font"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/login/login_bg.png",
+			"type": "image",
+			"name": "login_bg_png"
+		},
+		{
+			"url": "assets/login/login_denglu.png",
+			"type": "image",
+			"name": "login_denglu_png"
+		},
+		{
+			"url": "assets/login/login_dengluBt_0.png",
+			"type": "image",
+			"name": "login_dengluBt_0_png"
+		},
+		{
+			"url": "assets/login/login_dengluBt_1.png",
+			"type": "image",
+			"name": "login_dengluBt_1_png"
+		},
+		{
+			"url": "assets/login/login_zhucheBt_0.png",
+			"type": "image",
+			"name": "login_zhucheBt_0_png"
+		},
+		{
+			"url": "assets/login/login_zhucheBt_1.png",
+			"type": "image",
+			"name": "login_zhucheBt_1_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_0.png",
+			"type": "image",
+			"name": "blnn_ftp_0_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_1.png",
+			"type": "image",
+			"name": "blnn_ftp_1_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_10.png",
+			"type": "image",
+			"name": "blnn_ftp_10_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_2.png",
+			"type": "image",
+			"name": "blnn_ftp_2_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_3.png",
+			"type": "image",
+			"name": "blnn_ftp_3_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_4.png",
+			"type": "image",
+			"name": "blnn_ftp_4_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_5.png",
+			"type": "image",
+			"name": "blnn_ftp_5_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_6.png",
+			"type": "image",
+			"name": "blnn_ftp_6_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_7.png",
+			"type": "image",
+			"name": "blnn_ftp_7_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_8.png",
+			"type": "image",
+			"name": "blnn_ftp_8_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_9.png",
+			"type": "image",
+			"name": "blnn_ftp_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_1.png",
+			"type": "image",
+			"name": "cardmax_1_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_10.png",
+			"type": "image",
+			"name": "cardmax_1_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_11.png",
+			"type": "image",
+			"name": "cardmax_1_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_12.png",
+			"type": "image",
+			"name": "cardmax_1_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_13.png",
+			"type": "image",
+			"name": "cardmax_1_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_2.png",
+			"type": "image",
+			"name": "cardmax_1_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_3.png",
+			"type": "image",
+			"name": "cardmax_1_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_4.png",
+			"type": "image",
+			"name": "cardmax_1_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_5.png",
+			"type": "image",
+			"name": "cardmax_1_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_6.png",
+			"type": "image",
+			"name": "cardmax_1_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_7.png",
+			"type": "image",
+			"name": "cardmax_1_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_8.png",
+			"type": "image",
+			"name": "cardmax_1_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_1_9.png",
+			"type": "image",
+			"name": "cardmax_1_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_1.png",
+			"type": "image",
+			"name": "cardmax_2_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_10.png",
+			"type": "image",
+			"name": "cardmax_2_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_11.png",
+			"type": "image",
+			"name": "cardmax_2_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_12.png",
+			"type": "image",
+			"name": "cardmax_2_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_13.png",
+			"type": "image",
+			"name": "cardmax_2_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_2.png",
+			"type": "image",
+			"name": "cardmax_2_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_3.png",
+			"type": "image",
+			"name": "cardmax_2_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_4.png",
+			"type": "image",
+			"name": "cardmax_2_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_5.png",
+			"type": "image",
+			"name": "cardmax_2_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_6.png",
+			"type": "image",
+			"name": "cardmax_2_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_7.png",
+			"type": "image",
+			"name": "cardmax_2_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_8.png",
+			"type": "image",
+			"name": "cardmax_2_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_2_9.png",
+			"type": "image",
+			"name": "cardmax_2_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_1.png",
+			"type": "image",
+			"name": "cardmax_3_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_10.png",
+			"type": "image",
+			"name": "cardmax_3_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_11.png",
+			"type": "image",
+			"name": "cardmax_3_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_12.png",
+			"type": "image",
+			"name": "cardmax_3_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_13.png",
+			"type": "image",
+			"name": "cardmax_3_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_2.png",
+			"type": "image",
+			"name": "cardmax_3_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_3.png",
+			"type": "image",
+			"name": "cardmax_3_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_4.png",
+			"type": "image",
+			"name": "cardmax_3_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_5.png",
+			"type": "image",
+			"name": "cardmax_3_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_6.png",
+			"type": "image",
+			"name": "cardmax_3_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_7.png",
+			"type": "image",
+			"name": "cardmax_3_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_8.png",
+			"type": "image",
+			"name": "cardmax_3_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_3_9.png",
+			"type": "image",
+			"name": "cardmax_3_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_1.png",
+			"type": "image",
+			"name": "cardmax_4_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_10.png",
+			"type": "image",
+			"name": "cardmax_4_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_11.png",
+			"type": "image",
+			"name": "cardmax_4_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_12.png",
+			"type": "image",
+			"name": "cardmax_4_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_13.png",
+			"type": "image",
+			"name": "cardmax_4_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_2.png",
+			"type": "image",
+			"name": "cardmax_4_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_3.png",
+			"type": "image",
+			"name": "cardmax_4_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_4.png",
+			"type": "image",
+			"name": "cardmax_4_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_5.png",
+			"type": "image",
+			"name": "cardmax_4_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_6.png",
+			"type": "image",
+			"name": "cardmax_4_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_7.png",
+			"type": "image",
+			"name": "cardmax_4_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_8.png",
+			"type": "image",
+			"name": "cardmax_4_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmax/cardmax_4_9.png",
+			"type": "image",
+			"name": "cardmax_4_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_1.png",
+			"type": "image",
+			"name": "cardmin_1_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_10.png",
+			"type": "image",
+			"name": "cardmin_1_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_11.png",
+			"type": "image",
+			"name": "cardmin_1_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_12.png",
+			"type": "image",
+			"name": "cardmin_1_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_13.png",
+			"type": "image",
+			"name": "cardmin_1_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_2.png",
+			"type": "image",
+			"name": "cardmin_1_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_3.png",
+			"type": "image",
+			"name": "cardmin_1_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_4.png",
+			"type": "image",
+			"name": "cardmin_1_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_5.png",
+			"type": "image",
+			"name": "cardmin_1_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_6.png",
+			"type": "image",
+			"name": "cardmin_1_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_7.png",
+			"type": "image",
+			"name": "cardmin_1_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_8.png",
+			"type": "image",
+			"name": "cardmin_1_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_1_9.png",
+			"type": "image",
+			"name": "cardmin_1_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_1.png",
+			"type": "image",
+			"name": "cardmin_2_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_10.png",
+			"type": "image",
+			"name": "cardmin_2_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_11.png",
+			"type": "image",
+			"name": "cardmin_2_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_12.png",
+			"type": "image",
+			"name": "cardmin_2_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_13.png",
+			"type": "image",
+			"name": "cardmin_2_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_2.png",
+			"type": "image",
+			"name": "cardmin_2_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_3.png",
+			"type": "image",
+			"name": "cardmin_2_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_4.png",
+			"type": "image",
+			"name": "cardmin_2_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_5.png",
+			"type": "image",
+			"name": "cardmin_2_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_6.png",
+			"type": "image",
+			"name": "cardmin_2_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_7.png",
+			"type": "image",
+			"name": "cardmin_2_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_8.png",
+			"type": "image",
+			"name": "cardmin_2_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_2_9.png",
+			"type": "image",
+			"name": "cardmin_2_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_1.png",
+			"type": "image",
+			"name": "cardmin_3_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_10.png",
+			"type": "image",
+			"name": "cardmin_3_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_11.png",
+			"type": "image",
+			"name": "cardmin_3_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_12.png",
+			"type": "image",
+			"name": "cardmin_3_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_13.png",
+			"type": "image",
+			"name": "cardmin_3_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_2.png",
+			"type": "image",
+			"name": "cardmin_3_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_3.png",
+			"type": "image",
+			"name": "cardmin_3_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_4.png",
+			"type": "image",
+			"name": "cardmin_3_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_5.png",
+			"type": "image",
+			"name": "cardmin_3_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_6.png",
+			"type": "image",
+			"name": "cardmin_3_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_7.png",
+			"type": "image",
+			"name": "cardmin_3_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_8.png",
+			"type": "image",
+			"name": "cardmin_3_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_3_9.png",
+			"type": "image",
+			"name": "cardmin_3_9_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_1.png",
+			"type": "image",
+			"name": "cardmin_4_1_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_10.png",
+			"type": "image",
+			"name": "cardmin_4_10_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_11.png",
+			"type": "image",
+			"name": "cardmin_4_11_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_12.png",
+			"type": "image",
+			"name": "cardmin_4_12_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_13.png",
+			"type": "image",
+			"name": "cardmin_4_13_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_2.png",
+			"type": "image",
+			"name": "cardmin_4_2_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_3.png",
+			"type": "image",
+			"name": "cardmin_4_3_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_4.png",
+			"type": "image",
+			"name": "cardmin_4_4_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_5.png",
+			"type": "image",
+			"name": "cardmin_4_5_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_6.png",
+			"type": "image",
+			"name": "cardmin_4_6_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_7.png",
+			"type": "image",
+			"name": "cardmin_4_7_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_8.png",
+			"type": "image",
+			"name": "cardmin_4_8_png"
+		},
+		{
+			"url": "assets/bullfight/card/cardmin/cardmin_4_9.png",
+			"type": "image",
+			"name": "cardmin_4_9_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_11.png",
+			"type": "image",
+			"name": "blnn_ftp_11_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_12.png",
+			"type": "image",
+			"name": "blnn_ftp_12_png"
+		},
+		{
+			"url": "assets/bullfight/blnn/blnn_ftp_13.png",
+			"type": "image",
+			"name": "blnn_ftp_13_png"
+		},
+		{
+			"url": "assets/common/dnmain_shading_head.png",
+			"type": "image",
+			"name": "dnmain_shading_head_png"
+		},
+		{
+			"url": "assets/loading/loading_ditu.png",
+			"type": "image",
+			"name": "loading_ditu_png"
+		},
+		{
+			"url": "assets/loading/loading_guangquan.png",
+			"type": "image",
+			"name": "loading_guangquan_png"
+		},
+		{
+			"url": "assets/sound/douniu/niu_0.mp3",
+			"type": "sound",
+			"name": "niu_0_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_1.mp3",
+			"type": "sound",
+			"name": "niu_1_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_10.mp3",
+			"type": "sound",
+			"name": "niu_10_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_11.mp3",
+			"type": "sound",
+			"name": "niu_11_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_12.mp3",
+			"type": "sound",
+			"name": "niu_12_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_13.mp3",
+			"type": "sound",
+			"name": "niu_13_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_2.mp3",
+			"type": "sound",
+			"name": "niu_2_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_3.mp3",
+			"type": "sound",
+			"name": "niu_3_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_4.mp3",
+			"type": "sound",
+			"name": "niu_4_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_5.mp3",
+			"type": "sound",
+			"name": "niu_5_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_6.mp3",
+			"type": "sound",
+			"name": "niu_6_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_7.mp3",
+			"type": "sound",
+			"name": "niu_7_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_8.mp3",
+			"type": "sound",
+			"name": "niu_8_mp3"
+		},
+		{
+			"url": "assets/sound/douniu/niu_9.mp3",
+			"type": "sound",
+			"name": "niu_9_mp3"
+		},
+		{
+			"url": "assets/sound/Licensing.mp3",
+			"type": "sound",
+			"name": "Licensing_mp3"
+		},
+		{
+			"url": "assets/sound/Licensing1.mp3",
+			"type": "sound",
+			"name": "Licensing1_mp3"
+		},
+		{
+			"url": "assets/sound/Licensing2.mp3",
+			"type": "sound",
+			"name": "Licensing2_mp3"
+		},
+		{
+			"url": "assets/sound/addgold.mp3",
+			"type": "sound",
+			"name": "addgold_mp3"
+		},
+		{
+			"url": "assets/sound/applause.mp3",
+			"type": "sound",
+			"name": "applause_mp3"
+		},
+		{
+			"url": "assets/sound/bg_music.mp3",
+			"type": "sound",
+			"name": "bg_music_mp3"
+		},
+		{
+			"url": "assets/sound/button1.mp3",
+			"type": "sound",
+			"name": "button1_mp3"
+		},
+		{
+			"url": "assets/sound/button2.mp3",
+			"type": "sound",
+			"name": "button2_mp3"
+		},
+		{
+			"url": "assets/sound/button3.mp3",
+			"type": "sound",
+			"name": "button3_mp3"
+		},
+		{
+			"url": "assets/sound/buy.mp3",
+			"type": "sound",
+			"name": "buy_mp3"
+		},
+		{
+			"url": "assets/sound/callfemale.mp3",
+			"type": "sound",
+			"name": "callfemale_mp3"
+		},
+		{
+			"url": "assets/sound/callmale.mp3",
+			"type": "sound",
+			"name": "callmale_mp3"
+		},
+		{
+			"url": "assets/sound/camera.mp3",
+			"type": "sound",
+			"name": "camera_mp3"
+		},
+		{
+			"url": "assets/sound/chair.mp3",
+			"type": "sound",
+			"name": "chair_mp3"
+		},
+		{
+			"url": "assets/sound/checkfemale.mp3",
+			"type": "sound",
+			"name": "checkfemale_mp3"
+		},
+		{
+			"url": "assets/sound/checkmale.mp3",
+			"type": "sound",
+			"name": "checkmale_mp3"
+		},
+		{
+			"url": "assets/sound/chip.mp3",
+			"type": "sound",
+			"name": "chip_mp3"
+		},
+		{
+			"url": "assets/sound/chip2.mp3",
+			"type": "sound",
+			"name": "chip2_mp3"
+		},
+		{
+			"url": "assets/sound/currentround.mp3",
+			"type": "sound",
+			"name": "currentround_mp3"
+		},
+		{
+			"url": "assets/sound/dialogue.mp3",
+			"type": "sound",
+			"name": "dialogue_mp3"
+		},
+		{
+			"url": "assets/sound/discardfemale.mp3",
+			"type": "sound",
+			"name": "discardfemale_mp3"
+		},
+		{
+			"url": "assets/sound/discardmale.mp3",
+			"type": "sound",
+			"name": "discardmale_mp3"
+		},
+		{
+			"url": "assets/sound/exit.mp3",
+			"type": "sound",
+			"name": "exit_mp3"
+		},
+		{
+			"url": "assets/sound/fail.mp3",
+			"type": "sound",
+			"name": "fail_mp3"
+		},
+		{
+			"url": "assets/sound/fillfemale.mp3",
+			"type": "sound",
+			"name": "fillfemale_mp3"
+		},
+		{
+			"url": "assets/sound/fillmale.mp3",
+			"type": "sound",
+			"name": "fillmale_mp3"
+		},
+		{
+			"url": "assets/sound/flop.mp3",
+			"type": "sound",
+			"name": "flop_mp3"
+		},
+		{
+			"url": "assets/sound/game_bg_music.mp3",
+			"type": "sound",
+			"name": "game_bg_music_mp3"
+		},
+		{
+			"url": "assets/sound/return.mp3",
+			"type": "sound",
+			"name": "return_mp3"
+		},
+		{
+			"url": "assets/sound/sitdown.mp3",
+			"type": "sound",
+			"name": "sitdown_mp3"
+		},
+		{
+			"url": "assets/sound/time.mp3",
+			"type": "sound",
+			"name": "time_mp3"
+		},
+		{
+			"url": "assets/sound/touch.mp3",
+			"type": "sound",
+			"name": "touch_mp3"
+		},
+		{
+			"url": "assets/sound/tunk.mp3",
+			"type": "sound",
+			"name": "tunk_mp3"
+		},
+		{
+			"url": "assets/sound/winpromt.mp3",
+			"type": "sound",
+			"name": "winpromt_mp3"
+		},
+		{
+			"url": "assets/sound/winvictory.mp3",
+			"type": "sound",
+			"name": "winvictory_mp3"
+		},
+		{
+			"url": "assets/sound/luckDrawRun.mp3",
+			"type": "sound",
+			"name": "luckDrawRun_mp3"
+		},
+		{
+			"url": "assets/sound/missionLose.mp3",
+			"type": "sound",
+			"name": "missionLose_mp3"
+		},
+		{
+			"url": "assets/sound/missionWin.mp3",
+			"type": "sound",
+			"name": "missionWin_mp3"
+		},
+		{
+			"url": "font/font_3.fnt",
+			"type": "font",
+			"name": "font_3_fnt"
+		},
+		{
+			"url": "font/font_3.png",
+			"type": "image",
+			"name": "font_3_png"
+		},
+		{
+			"url": "assets/common/piachuangkuang.png",
+			"type": "image",
+			"name": "piachuangkuang_png"
+		},
+		{
+			"url": "assets/common/tongyongkuang.png",
+			"type": "image",
+			"name": "tongyongkuang_png"
+		},
+		{
+			"url": "assets/common/nenliangtiao_1.png",
+			"type": "image",
+			"name": "nenliangtiao_1_png"
+		},
+		{
+			"url": "assets/loading/loading_wangniuhonghong.png",
+			"type": "image",
+			"name": "loading_wangniuhonghong_png"
+		},
+		{
+			"url": "assets/login/login_button.png",
+			"type": "image",
+			"name": "login_button_png"
+		},
+		{
+			"url": "assets/login/input.png",
+			"type": "image",
+			"name": "input_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_100.png",
+			"type": "image",
+			"name": "blackjack_chips_100_png"
+		},
+		{
+			"url": "assets/bullfight/card/card_bg.png",
+			"type": "image",
+			"name": "card_bg_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_30.png",
+			"type": "image",
+			"name": "blackjack_chips_30_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_50.png",
+			"type": "image",
+			"name": "blackjack_chips_50_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_300.png",
+			"type": "image",
+			"name": "blackjack_chips_300_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_10.png",
+			"type": "image",
+			"name": "blackjack_chips_10_png"
+		},
+		{
+			"url": "assets/common/common_xt.png",
+			"type": "image",
+			"name": "common_xt_png"
+		},
+		{
+			"url": "assets/common/common_add.png",
+			"type": "image",
+			"name": "common_add_png"
+		},
+		{
+			"url": "assets/common/common_help.png",
+			"type": "image",
+			"name": "common_help_png"
+		},
+		{
+			"url": "assets/common/common_notice.png",
+			"type": "image",
+			"name": "common_notice_png"
+		},
+		{
+			"url": "assets/common/common_pup.png",
+			"type": "image",
+			"name": "common_pup_png"
+		},
+		{
+			"url": "assets/common/common_setting.png",
+			"type": "image",
+			"name": "common_setting_png"
+		},
+		{
+			"url": "assets/common/common_shop.png",
+			"type": "image",
+			"name": "common_shop_png"
+		},
+		{
+			"url": "assets/common/common_sound_bg.png",
+			"type": "image",
+			"name": "common_sound_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_zhuangIcon.png",
+			"type": "image",
+			"name": "wr_zhuangIcon_png"
+		},
+		{
+			"url": "assets/bullfight/wr/fightbull_bg.png",
+			"type": "image",
+			"name": "fightbull_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_desk_bg.png",
+			"type": "image",
+			"name": "wr_desk_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_fangkuai.png",
+			"type": "image",
+			"name": "wr_fangkuai_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_hetao.png",
+			"type": "image",
+			"name": "wr_hetao_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_hongtao.png",
+			"type": "image",
+			"name": "wr_hongtao_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_jiangcbg.png",
+			"type": "image",
+			"name": "wr_jiangcbg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_meihua.png",
+			"type": "image",
+			"name": "wr_meihua_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_name_bg.png",
+			"type": "image",
+			"name": "wr_name_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_select_check.png",
+			"type": "image",
+			"name": "wr_select_check_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_sz.png",
+			"type": "image",
+			"name": "wr_sz_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_sz_bg.png",
+			"type": "image",
+			"name": "wr_sz_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_tjb_bg.png",
+			"type": "image",
+			"name": "wr_tjb_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_xianjia.png",
+			"type": "image",
+			"name": "wr_xianjia_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_zhuang_bg.png",
+			"type": "image",
+			"name": "wr_zhuang_bg_png"
+		},
+		{
+			"url": "assets/common/common_gold.png",
+			"type": "image",
+			"name": "common_gold_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_check_300.png",
+			"type": "image",
+			"name": "blackjack_chips_check_300_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_check_50.png",
+			"type": "image",
+			"name": "blackjack_chips_check_50_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_check_10.png",
+			"type": "image",
+			"name": "blackjack_chips_check_10_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_check_100.png",
+			"type": "image",
+			"name": "blackjack_chips_check_100_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_check_30.png",
+			"type": "image",
+			"name": "blackjack_chips_check_30_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_gold_x.png",
+			"type": "image",
+			"name": "wr_gold_x_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_chat_bg.png",
+			"type": "image",
+			"name": "wr_chat_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_result_item_bg.png",
+			"type": "image",
+			"name": "wr_result_item_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_result_win.png",
+			"type": "image",
+			"name": "wr_result_win_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_result_lose.png",
+			"type": "image",
+			"name": "wr_result_lose_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_zhuang.png",
+			"type": "image",
+			"name": "wr_zhuang_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_zhuang_score_bg.png",
+			"type": "image",
+			"name": "wr_zhuang_score_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_bg.png",
+			"type": "image",
+			"name": "wr_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_qxz.png",
+			"type": "image",
+			"name": "wr_qxz_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_xxyx.png",
+			"type": "image",
+			"name": "wr_xxyx_png"
+		},
+		{
+			"url": "assets/sound/start_bet.mp3",
+			"type": "sound",
+			"name": "start_bet_mp3"
+		},
+		{
+			"url": "assets/sound/stop_bet.mp3",
+			"type": "sound",
+			"name": "stop_bet_mp3"
+		},
+		{
+			"url": "assets/bullfight/eff/winEff.png",
+			"type": "image",
+			"name": "winEff_png"
+		},
+		{
+			"url": "assets/bullfight/eff/winEff.json",
+			"type": "json",
+			"name": "winEff_json"
+		},
+		{
+			"url": "font/font_wr.png",
+			"type": "image",
+			"name": "font_wr_png"
+		},
+		{
+			"url": "font/font_wr.fnt",
+			"type": "font",
+			"name": "font_wr_fnt"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_otherPlayer_bg.png",
+			"type": "image",
+			"name": "wr_otherPlayer_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_otherPlayer_listBg.png",
+			"type": "image",
+			"name": "wr_otherPlayer_listBg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_otherPlayer_header.png",
+			"type": "image",
+			"name": "wr_otherPlayer_header_png"
+		},
+		{
+			"url": "assets/common/common_close.png",
+			"type": "image",
+			"name": "common_close_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_1.png",
+			"type": "image",
+			"name": "chat_1_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_2.png",
+			"type": "image",
+			"name": "chat_2_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_3.png",
+			"type": "image",
+			"name": "chat_3_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_4.png",
+			"type": "image",
+			"name": "chat_4_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_5.png",
+			"type": "image",
+			"name": "chat_5_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_6.png",
+			"type": "image",
+			"name": "chat_6_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_7.png",
+			"type": "image",
+			"name": "chat_7_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_8.png",
+			"type": "image",
+			"name": "chat_8_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_9.png",
+			"type": "image",
+			"name": "chat_9_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_10.png",
+			"type": "image",
+			"name": "chat_10_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_11.png",
+			"type": "image",
+			"name": "chat_11_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_12.png",
+			"type": "image",
+			"name": "chat_12_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_bg.png",
+			"type": "image",
+			"name": "chat_bg_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_input_bg.png",
+			"type": "image",
+			"name": "chat_input_bg_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_send.png",
+			"type": "image",
+			"name": "chat_send_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_wz_bg.png",
+			"type": "image",
+			"name": "chat_wz_bg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_otherPlayer_tapBg.png",
+			"type": "image",
+			"name": "wr_otherPlayer_tapBg_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_sl.png",
+			"type": "image",
+			"name": "wr_sl_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_start_bet.png",
+			"type": "image",
+			"name": "wr_start_bet_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_stop_bet.png",
+			"type": "image",
+			"name": "wr_stop_bet_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_0_0.png",
+			"type": "image",
+			"name": "chat_0_0_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_0_1.png",
+			"type": "image",
+			"name": "chat_0_1_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_1_0.png",
+			"type": "image",
+			"name": "chat_1_0_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_1_1.png",
+			"type": "image",
+			"name": "chat_1_1_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_13.png",
+			"type": "image",
+			"name": "chat_13_png"
+		},
+		{
+			"url": "assets/bullfight/chat/chat_14.png",
+			"type": "image",
+			"name": "chat_14_png"
+		},
+		{
+			"url": "assets/bullfight/sz/sz_zt.png",
+			"type": "image",
+			"name": "sz_zt_png"
+		},
+		{
+			"url": "assets/bullfight/sz/sz_bg.png",
+			"type": "image",
+			"name": "sz_bg_png"
+		},
+		{
+			"url": "assets/bullfight/sz/sz_shangzhuang_bg.png",
+			"type": "image",
+			"name": "sz_shangzhuang_bg_png"
+		},
+		{
+			"url": "assets/bullfight/sz/sz_wysz.png",
+			"type": "image",
+			"name": "sz_wysz_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dingzi_kaishixiazhu_0.png",
+			"type": "image",
+			"name": "dingzi_kaishixiazhu_02_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dingzi_kaishixiazhu_1.png",
+			"type": "image",
+			"name": "dingzi_kaishixiazhu_12_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tishi_kaishixiazhu_0.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_02_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tishi_kaishixiazhu_1.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_12_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tishi_kaishixiazhu_2.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_22_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tishi_kaishixiazhu_3.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_32_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_chip_fangkuai.png",
+			"type": "image",
+			"name": "wr_chip_fangkuai_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_chip_hetao.png",
+			"type": "image",
+			"name": "wr_chip_hetao_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_chip_hongtao.png",
+			"type": "image",
+			"name": "wr_chip_hongtao_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_chip_meihua.png",
+			"type": "image",
+			"name": "wr_chip_meihua_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_desk_bg_0.png",
+			"type": "image",
+			"name": "wr_desk_bg_0_png"
+		},
+		{
+			"url": "assets/bullfight/wr/fightbull_bg_0.png",
+			"type": "image",
+			"name": "fightbull_bg_0_png"
+		},
+		{
+			"url": "assets/bullfight/wr/wr_select_check_0.png",
+			"type": "image",
+			"name": "wr_select_check_0_png"
+		},
+		{
+			"url": "assets/common/dnmain_profile_girl.png",
+			"type": "image",
+			"name": "dnmain_profile_girl_png"
+		},
+		{
+			"url": "assets/common/com_btn_ok_no.png",
+			"type": "image",
+			"name": "com_btn_ok_no_png"
+		},
+		{
+			"url": "assets/common/com_btn_ok.png",
+			"type": "image",
+			"name": "com_btn_ok_png"
+		},
+		{
+			"url": "assets/common/meilizhi.png",
+			"type": "image",
+			"name": "meilizhi_png"
+		},
+		{
+			"url": "assets/common/shenwang.png",
+			"type": "image",
+			"name": "shenwang_png"
+		},
+		{
+			"url": "assets/common/dnmain_close_yes.png",
+			"type": "image",
+			"name": "dnmain_close_yes_png"
+		},
+		{
+			"url": "assets/common/common_chouma.png",
+			"type": "image",
+			"name": "common_chouma_png"
+		},
+		{
+			"url": "assets/common/nenliangtiao_0.png",
+			"type": "image",
+			"name": "nenliangtiao_0_png"
+		},
+		{
+			"url": "assets/common/zhuanshi.png",
+			"type": "image",
+			"name": "zhuanshi_png"
+		},
+		{
+			"url": "assets/common/dnmain_close.png",
+			"type": "image",
+			"name": "dnmain_close_png"
+		},
+		{
+			"url": "assets/common/dnmain_profile_boy.png",
+			"type": "image",
+			"name": "dnmain_profile_boy_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_0.png",
+			"type": "image",
+			"name": "liwu_0_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_1.png",
+			"type": "image",
+			"name": "liwu_1_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_10.png",
+			"type": "image",
+			"name": "liwu_10_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_11.png",
+			"type": "image",
+			"name": "liwu_11_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_12.png",
+			"type": "image",
+			"name": "liwu_12_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_13.png",
+			"type": "image",
+			"name": "liwu_13_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_14.png",
+			"type": "image",
+			"name": "liwu_14_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_15.png",
+			"type": "image",
+			"name": "liwu_15_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_16.png",
+			"type": "image",
+			"name": "liwu_16_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_17.png",
+			"type": "image",
+			"name": "liwu_17_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_18.png",
+			"type": "image",
+			"name": "liwu_18_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_19.png",
+			"type": "image",
+			"name": "liwu_19_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_2.png",
+			"type": "image",
+			"name": "liwu_2_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_20.png",
+			"type": "image",
+			"name": "liwu_20_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_3.png",
+			"type": "image",
+			"name": "liwu_3_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_4.png",
+			"type": "image",
+			"name": "liwu_4_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_5.png",
+			"type": "image",
+			"name": "liwu_5_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_6.png",
+			"type": "image",
+			"name": "liwu_6_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_7.png",
+			"type": "image",
+			"name": "liwu_7_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_8.png",
+			"type": "image",
+			"name": "liwu_8_png"
+		},
+		{
+			"url": "assets/ico/giftico/liwu_9.png",
+			"type": "image",
+			"name": "liwu_9_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_0_1.png",
+			"type": "image",
+			"name": "headico_0_1_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_0_2.png",
+			"type": "image",
+			"name": "headico_0_2_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_0_3.png",
+			"type": "image",
+			"name": "headico_0_3_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_0_4.png",
+			"type": "image",
+			"name": "headico_0_4_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_1_1.png",
+			"type": "image",
+			"name": "headico_1_1_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_1_2.png",
+			"type": "image",
+			"name": "headico_1_2_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_1_3.png",
+			"type": "image",
+			"name": "headico_1_3_png"
+		},
+		{
+			"url": "assets/ico/headico/headico_1_4.png",
+			"type": "image",
+			"name": "headico_1_4_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_0.png",
+			"type": "image",
+			"name": "expression_img_0_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_1.png",
+			"type": "image",
+			"name": "expression_img_1_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_10.png",
+			"type": "image",
+			"name": "expression_img_10_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_100.png",
+			"type": "image",
+			"name": "expression_img_100_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_101.png",
+			"type": "image",
+			"name": "expression_img_101_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_102.png",
+			"type": "image",
+			"name": "expression_img_102_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_103.png",
+			"type": "image",
+			"name": "expression_img_103_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_104.png",
+			"type": "image",
+			"name": "expression_img_104_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_105.png",
+			"type": "image",
+			"name": "expression_img_105_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_106.png",
+			"type": "image",
+			"name": "expression_img_106_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_107.png",
+			"type": "image",
+			"name": "expression_img_107_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_108.png",
+			"type": "image",
+			"name": "expression_img_108_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_109.png",
+			"type": "image",
+			"name": "expression_img_109_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_11.png",
+			"type": "image",
+			"name": "expression_img_11_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_110.png",
+			"type": "image",
+			"name": "expression_img_110_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_111.png",
+			"type": "image",
+			"name": "expression_img_111_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_112.png",
+			"type": "image",
+			"name": "expression_img_112_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_113.png",
+			"type": "image",
+			"name": "expression_img_113_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_114.png",
+			"type": "image",
+			"name": "expression_img_114_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_115.png",
+			"type": "image",
+			"name": "expression_img_115_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_116.png",
+			"type": "image",
+			"name": "expression_img_116_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_117.png",
+			"type": "image",
+			"name": "expression_img_117_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_118.png",
+			"type": "image",
+			"name": "expression_img_118_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_119.png",
+			"type": "image",
+			"name": "expression_img_119_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_12.png",
+			"type": "image",
+			"name": "expression_img_12_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_120.png",
+			"type": "image",
+			"name": "expression_img_120_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_121.png",
+			"type": "image",
+			"name": "expression_img_121_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_122.png",
+			"type": "image",
+			"name": "expression_img_122_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_123.png",
+			"type": "image",
+			"name": "expression_img_123_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_124.png",
+			"type": "image",
+			"name": "expression_img_124_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_125.png",
+			"type": "image",
+			"name": "expression_img_125_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_126.png",
+			"type": "image",
+			"name": "expression_img_126_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_127.png",
+			"type": "image",
+			"name": "expression_img_127_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_128.png",
+			"type": "image",
+			"name": "expression_img_128_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_129.png",
+			"type": "image",
+			"name": "expression_img_129_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_13.png",
+			"type": "image",
+			"name": "expression_img_13_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_130.png",
+			"type": "image",
+			"name": "expression_img_130_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_131.png",
+			"type": "image",
+			"name": "expression_img_131_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_132.png",
+			"type": "image",
+			"name": "expression_img_132_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_14.png",
+			"type": "image",
+			"name": "expression_img_14_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_15.png",
+			"type": "image",
+			"name": "expression_img_15_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_16.png",
+			"type": "image",
+			"name": "expression_img_16_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_17.png",
+			"type": "image",
+			"name": "expression_img_17_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_18.png",
+			"type": "image",
+			"name": "expression_img_18_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_19.png",
+			"type": "image",
+			"name": "expression_img_19_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_2.png",
+			"type": "image",
+			"name": "expression_img_2_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_20.png",
+			"type": "image",
+			"name": "expression_img_20_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_21.png",
+			"type": "image",
+			"name": "expression_img_21_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_22.png",
+			"type": "image",
+			"name": "expression_img_22_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_23.png",
+			"type": "image",
+			"name": "expression_img_23_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_24.png",
+			"type": "image",
+			"name": "expression_img_24_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_25.png",
+			"type": "image",
+			"name": "expression_img_25_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_26.png",
+			"type": "image",
+			"name": "expression_img_26_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_27.png",
+			"type": "image",
+			"name": "expression_img_27_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_28.png",
+			"type": "image",
+			"name": "expression_img_28_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_29.png",
+			"type": "image",
+			"name": "expression_img_29_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_3.png",
+			"type": "image",
+			"name": "expression_img_3_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_30.png",
+			"type": "image",
+			"name": "expression_img_30_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_31.png",
+			"type": "image",
+			"name": "expression_img_31_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_32.png",
+			"type": "image",
+			"name": "expression_img_32_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_33.png",
+			"type": "image",
+			"name": "expression_img_33_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_34.png",
+			"type": "image",
+			"name": "expression_img_34_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_35.png",
+			"type": "image",
+			"name": "expression_img_35_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_36.png",
+			"type": "image",
+			"name": "expression_img_36_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_37.png",
+			"type": "image",
+			"name": "expression_img_37_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_38.png",
+			"type": "image",
+			"name": "expression_img_38_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_39.png",
+			"type": "image",
+			"name": "expression_img_39_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_4.png",
+			"type": "image",
+			"name": "expression_img_4_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_40.png",
+			"type": "image",
+			"name": "expression_img_40_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_41.png",
+			"type": "image",
+			"name": "expression_img_41_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_42.png",
+			"type": "image",
+			"name": "expression_img_42_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_43.png",
+			"type": "image",
+			"name": "expression_img_43_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_44.png",
+			"type": "image",
+			"name": "expression_img_44_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_45.png",
+			"type": "image",
+			"name": "expression_img_45_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_46.png",
+			"type": "image",
+			"name": "expression_img_46_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_47.png",
+			"type": "image",
+			"name": "expression_img_47_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_48.png",
+			"type": "image",
+			"name": "expression_img_48_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_49.png",
+			"type": "image",
+			"name": "expression_img_49_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_5.png",
+			"type": "image",
+			"name": "expression_img_5_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_50.png",
+			"type": "image",
+			"name": "expression_img_50_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_51.png",
+			"type": "image",
+			"name": "expression_img_51_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_52.png",
+			"type": "image",
+			"name": "expression_img_52_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_53.png",
+			"type": "image",
+			"name": "expression_img_53_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_54.png",
+			"type": "image",
+			"name": "expression_img_54_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_55.png",
+			"type": "image",
+			"name": "expression_img_55_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_56.png",
+			"type": "image",
+			"name": "expression_img_56_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_57.png",
+			"type": "image",
+			"name": "expression_img_57_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_58.png",
+			"type": "image",
+			"name": "expression_img_58_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_59.png",
+			"type": "image",
+			"name": "expression_img_59_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_6.png",
+			"type": "image",
+			"name": "expression_img_6_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_60.png",
+			"type": "image",
+			"name": "expression_img_60_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_61.png",
+			"type": "image",
+			"name": "expression_img_61_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_62.png",
+			"type": "image",
+			"name": "expression_img_62_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_63.png",
+			"type": "image",
+			"name": "expression_img_63_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_64.png",
+			"type": "image",
+			"name": "expression_img_64_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_65.png",
+			"type": "image",
+			"name": "expression_img_65_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_66.png",
+			"type": "image",
+			"name": "expression_img_66_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_67.png",
+			"type": "image",
+			"name": "expression_img_67_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_68.png",
+			"type": "image",
+			"name": "expression_img_68_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_69.png",
+			"type": "image",
+			"name": "expression_img_69_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_7.png",
+			"type": "image",
+			"name": "expression_img_7_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_70.png",
+			"type": "image",
+			"name": "expression_img_70_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_71.png",
+			"type": "image",
+			"name": "expression_img_71_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_72.png",
+			"type": "image",
+			"name": "expression_img_72_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_73.png",
+			"type": "image",
+			"name": "expression_img_73_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_74.png",
+			"type": "image",
+			"name": "expression_img_74_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_75.png",
+			"type": "image",
+			"name": "expression_img_75_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_76.png",
+			"type": "image",
+			"name": "expression_img_76_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_77.png",
+			"type": "image",
+			"name": "expression_img_77_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_78.png",
+			"type": "image",
+			"name": "expression_img_78_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_79.png",
+			"type": "image",
+			"name": "expression_img_79_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_8.png",
+			"type": "image",
+			"name": "expression_img_8_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_80.png",
+			"type": "image",
+			"name": "expression_img_80_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_81.png",
+			"type": "image",
+			"name": "expression_img_81_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_82.png",
+			"type": "image",
+			"name": "expression_img_82_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_83.png",
+			"type": "image",
+			"name": "expression_img_83_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_84.png",
+			"type": "image",
+			"name": "expression_img_84_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_85.png",
+			"type": "image",
+			"name": "expression_img_85_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_86.png",
+			"type": "image",
+			"name": "expression_img_86_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_87.png",
+			"type": "image",
+			"name": "expression_img_87_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_88.png",
+			"type": "image",
+			"name": "expression_img_88_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_89.png",
+			"type": "image",
+			"name": "expression_img_89_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_9.png",
+			"type": "image",
+			"name": "expression_img_9_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_90.png",
+			"type": "image",
+			"name": "expression_img_90_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_91.png",
+			"type": "image",
+			"name": "expression_img_91_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_92.png",
+			"type": "image",
+			"name": "expression_img_92_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_93.png",
+			"type": "image",
+			"name": "expression_img_93_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_94.png",
+			"type": "image",
+			"name": "expression_img_94_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_95.png",
+			"type": "image",
+			"name": "expression_img_95_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_96.png",
+			"type": "image",
+			"name": "expression_img_96_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_97.png",
+			"type": "image",
+			"name": "expression_img_97_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_98.png",
+			"type": "image",
+			"name": "expression_img_98_png"
+		},
+		{
+			"url": "assets/ico/lookico/expression_img_99.png",
+			"type": "image",
+			"name": "expression_img_99_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP1/V1-1.png",
+			"type": "image",
+			"name": "V1-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP1/V1-2.png",
+			"type": "image",
+			"name": "V1-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP10/V10-1.png",
+			"type": "image",
+			"name": "V10-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP10/V10-2.png",
+			"type": "image",
+			"name": "V10-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP10/V10-3.png",
+			"type": "image",
+			"name": "V10-3_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP2/V2-1.png",
+			"type": "image",
+			"name": "V2-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP2/V2-2.png",
+			"type": "image",
+			"name": "V2-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP3/V3-1.png",
+			"type": "image",
+			"name": "V3-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP3/V3-2.png",
+			"type": "image",
+			"name": "V3-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP4/V4-1.png",
+			"type": "image",
+			"name": "V4-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP4/V4-2.png",
+			"type": "image",
+			"name": "V4-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP4/V4-3.png",
+			"type": "image",
+			"name": "V4-3_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP5/V5-1.png",
+			"type": "image",
+			"name": "V5-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP5/V5-2.png",
+			"type": "image",
+			"name": "V5-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP5/V5-3.png",
+			"type": "image",
+			"name": "V5-3_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP6/V6-1.png",
+			"type": "image",
+			"name": "V6-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP6/V6-2.png",
+			"type": "image",
+			"name": "V6-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP6/V6-3.png",
+			"type": "image",
+			"name": "V6-3_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP7/V7-1.png",
+			"type": "image",
+			"name": "V7-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP7/V7-2.png",
+			"type": "image",
+			"name": "V7-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP8/V8-1.png",
+			"type": "image",
+			"name": "V8-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP8/V8-2.png",
+			"type": "image",
+			"name": "V8-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP8/V8-3.png",
+			"type": "image",
+			"name": "V8-3_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP9/V9-1.png",
+			"type": "image",
+			"name": "V9-1_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP9/V9-2.png",
+			"type": "image",
+			"name": "V9-2_png"
+		},
+		{
+			"url": "assets/ico/vipico/VIP9/V9-3.png",
+			"type": "image",
+			"name": "V9-3_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_0.png",
+			"type": "image",
+			"name": "vip_min_icon_0_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_1.png",
+			"type": "image",
+			"name": "vip_min_icon_1_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_10.png",
+			"type": "image",
+			"name": "vip_min_icon_10_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_2.png",
+			"type": "image",
+			"name": "vip_min_icon_2_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_3.png",
+			"type": "image",
+			"name": "vip_min_icon_3_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_4.png",
+			"type": "image",
+			"name": "vip_min_icon_4_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_5.png",
+			"type": "image",
+			"name": "vip_min_icon_5_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_6.png",
+			"type": "image",
+			"name": "vip_min_icon_6_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_7.png",
+			"type": "image",
+			"name": "vip_min_icon_7_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_8.png",
+			"type": "image",
+			"name": "vip_min_icon_8_png"
+		},
+		{
+			"url": "assets/ico/vipico/vipminico/vip_min_icon_9.png",
+			"type": "image",
+			"name": "vip_min_icon_9_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_1.png",
+			"type": "image",
+			"name": "blackjack_chips_1_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_200.png",
+			"type": "image",
+			"name": "blackjack_chips_200_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_2.png",
+			"type": "image",
+			"name": "blackjack_chips_2_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_3.png",
+			"type": "image",
+			"name": "blackjack_chips_3_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_4.png",
+			"type": "image",
+			"name": "blackjack_chips_4_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_500.png",
+			"type": "image",
+			"name": "blackjack_chips_500_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_5.png",
+			"type": "image",
+			"name": "blackjack_chips_5_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_6.png",
+			"type": "image",
+			"name": "blackjack_chips_6_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_7.png",
+			"type": "image",
+			"name": "blackjack_chips_7_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_8.png",
+			"type": "image",
+			"name": "blackjack_chips_8_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_9.png",
+			"type": "image",
+			"name": "blackjack_chips_9_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/game_bet1.png",
+			"type": "image",
+			"name": "game_bet1_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/game_bet2.png",
+			"type": "image",
+			"name": "game_bet2_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/game_bet3.png",
+			"type": "image",
+			"name": "game_bet3_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/game_bet4.png",
+			"type": "image",
+			"name": "game_bet4_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/game_bet5.png",
+			"type": "image",
+			"name": "game_bet5_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/game_bet6.png",
+			"type": "image",
+			"name": "game_bet6_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_11.png",
+			"type": "image",
+			"name": "blackjack_chips_11_png"
+		},
+		{
+			"url": "assets/bullfight/blackjack/blackjack_chips_12.png",
+			"type": "image",
+			"name": "blackjack_chips_12_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/daojishi_ditu.png",
+			"type": "image",
+			"name": "daojishi_ditu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tanchuang_youxishuoming.png",
+			"type": "image",
+			"name": "tanchuang_youxishuoming_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zuoxia.png",
+			"type": "image",
+			"name": "zuoxia_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/renwuxinxi.png",
+			"type": "image",
+			"name": "renwuxinxi_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/touxiangkuang_fankui.png",
+			"type": "image",
+			"name": "touxiangkuang_fankui_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/video_playBtton_0.png",
+			"type": "image",
+			"name": "video_playBtton_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/video_playBtton_1.png",
+			"type": "image",
+			"name": "video_playBtton_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/jiesuanditu.png",
+			"type": "image",
+			"name": "jiesuanditu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/xianshi_guanbi.png",
+			"type": "image",
+			"name": "xianshi_guanbi_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_zoushi_0.png",
+			"type": "image",
+			"name": "anniu_zoushi_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zhuang.png",
+			"type": "image",
+			"name": "zhuang_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_btn_ok_no.png",
+			"type": "image",
+			"name": "dnmain_btn_ok_no_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_biaoqing_0.png",
+			"type": "image",
+			"name": "anniu_biaoqing_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_biaoqing_1.png",
+			"type": "image",
+			"name": "anniu_biaoqing_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/105-3.png",
+			"type": "image",
+			"name": "105-3_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tanchuang_jiesuan_0.png",
+			"type": "image",
+			"name": "tanchuang_jiesuan_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_btn_right.png",
+			"type": "image",
+			"name": "dnmain_btn_right_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zuoxia_mingzi_di.png",
+			"type": "image",
+			"name": "zuoxia_mingzi_di_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_liaotian_0.png",
+			"type": "image",
+			"name": "anniu_liaotian_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_liaotian_1.png",
+			"type": "image",
+			"name": "anniu_liaotian_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_message_bg_red.png",
+			"type": "image",
+			"name": "dnmain_message_bg_red_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/gameshuomin.png",
+			"type": "image",
+			"name": "gameshuomin_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_shading_pramt_bg.png",
+			"type": "image",
+			"name": "dnmain_shading_pramt_bg_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/shagnzhuang_xinxiditu.png",
+			"type": "image",
+			"name": "shagnzhuang_xinxiditu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_heart.png",
+			"type": "image",
+			"name": "dnmain_ico_heart_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/touxiang_ditu.png",
+			"type": "image",
+			"name": "touxiang_ditu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tanchuang_zoushi_0.png",
+			"type": "image",
+			"name": "tanchuang_zoushi_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_message_bg_blue.png",
+			"type": "image",
+			"name": "dnmain_message_bg_blue_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tanchuang_tuichu.png",
+			"type": "image",
+			"name": "tanchuang_tuichu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/blnn_viewtype_bg.png",
+			"type": "image",
+			"name": "blnn_viewtype_bg_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/vip_new_icon_0.png",
+			"type": "image",
+			"name": "vip_new_icon_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/liaotiam.png",
+			"type": "image",
+			"name": "liaotiam_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_defhead.png",
+			"type": "image",
+			"name": "dnmain_ico_defhead_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/gift_bg.png",
+			"type": "image",
+			"name": "gift_bg_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zhiti_jiesuan_shu_0.png",
+			"type": "image",
+			"name": "zhiti_jiesuan_shu_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_zhensong_0.png",
+			"type": "image",
+			"name": "anniu_zhensong_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_zhensong_1.png",
+			"type": "image",
+			"name": "anniu_zhensong_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/kuangtixuanzhe.png",
+			"type": "image",
+			"name": "kuangtixuanzhe_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/aniu_fasong_0.png",
+			"type": "image",
+			"name": "aniu_fasong_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/card_back_1.png",
+			"type": "image",
+			"name": "card_back_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/aniu_fasong_1.png",
+			"type": "image",
+			"name": "aniu_fasong_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/card_back_2.png",
+			"type": "image",
+			"name": "card_back_2_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_tuichu_0.png",
+			"type": "image",
+			"name": "anniu_tuichu_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zhiti_jiesuan_ying_0.png",
+			"type": "image",
+			"name": "zhiti_jiesuan_ying_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_tuichu_1.png",
+			"type": "image",
+			"name": "anniu_tuichu_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/queding_0.png",
+			"type": "image",
+			"name": "queding_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/queding_1.png",
+			"type": "image",
+			"name": "queding_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_bg.png",
+			"type": "image",
+			"name": "dnmain_bg_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/songli_ditu.png",
+			"type": "image",
+			"name": "songli_ditu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_btn_left.png",
+			"type": "image",
+			"name": "dnmain_btn_left_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/suoding_0.png",
+			"type": "image",
+			"name": "suoding_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/suoding_1.png",
+			"type": "image",
+			"name": "suoding_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_shenji_0.png",
+			"type": "image",
+			"name": "anniu_shenji_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_shenji_1.png",
+			"type": "image",
+			"name": "anniu_shenji_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tanchuang_shangzhuangliebiao.png",
+			"type": "image",
+			"name": "tanchuang_shangzhuangliebiao_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_loding.png",
+			"type": "image",
+			"name": "dnmain_ico_loding_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/tishidi.png",
+			"type": "image",
+			"name": "tishidi_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/taitou_xingxing_0.png",
+			"type": "image",
+			"name": "taitou_xingxing_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dinkuang.png",
+			"type": "image",
+			"name": "dinkuang_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_btn_ok.png",
+			"type": "image",
+			"name": "dnmain_btn_ok_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/couma.png",
+			"type": "image",
+			"name": "couma_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/qitawanjia_di.png",
+			"type": "image",
+			"name": "qitawanjia_di_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_woyaoshangzhuang_1.png",
+			"type": "image",
+			"name": "anniu_woyaoshangzhuang_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_woyaoshangzhuang_2.png",
+			"type": "image",
+			"name": "anniu_woyaoshangzhuang_2_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_add.png",
+			"type": "image",
+			"name": "dnmain_ico_add_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/annniu_liwu_1.png",
+			"type": "image",
+			"name": "annniu_liwu_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_block.png",
+			"type": "image",
+			"name": "dnmain_ico_block_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/biao.png",
+			"type": "image",
+			"name": "biao_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/suoyouwanjia_0.png",
+			"type": "image",
+			"name": "suoyouwanjia_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/suoyouwanjia_1.png",
+			"type": "image",
+			"name": "suoyouwanjia_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/biaoqing_kuang.png",
+			"type": "image",
+			"name": "biaoqing_kuang_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_dashang_0.png",
+			"type": "image",
+			"name": "anniu_dashang_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_dashang_1.png",
+			"type": "image",
+			"name": "anniu_dashang_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_quxiao_0.png",
+			"type": "image",
+			"name": "anniu_quxiao_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_btn_sitdown.png",
+			"type": "image",
+			"name": "dnmain_btn_sitdown_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_quxiao_1.png",
+			"type": "image",
+			"name": "anniu_quxiao_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/chouma_max.png",
+			"type": "image",
+			"name": "chouma_max_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/xianshi_kaiqi.png",
+			"type": "image",
+			"name": "xianshi_kaiqi_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zhensong kuang.png",
+			"type": "image",
+			"name": "zhensong kuang_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_zhuang.png",
+			"type": "image",
+			"name": "dnmain_zhuang_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_fanhui_0.png",
+			"type": "image",
+			"name": "anniu_fanhui_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/daojishi_zoutiao_1.png",
+			"type": "image",
+			"name": "daojishi_zoutiao_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_liansong_1.png",
+			"type": "image",
+			"name": "anniu_liansong_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_fanhui_1.png",
+			"type": "image",
+			"name": "anniu_fanhui_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/daojishi_zoutiao_2.png",
+			"type": "image",
+			"name": "daojishi_zoutiao_2_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/liwuditu_0.png",
+			"type": "image",
+			"name": "liwuditu_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/quxiao_0.png",
+			"type": "image",
+			"name": "quxiao_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/xinxikuang.png",
+			"type": "image",
+			"name": "xinxikuang_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/quxiao_1.png",
+			"type": "image",
+			"name": "quxiao_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/yemian_taitou_0.png",
+			"type": "image",
+			"name": "yemian_taitou_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/yemian_taitou_1.png",
+			"type": "image",
+			"name": "yemian_taitou_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_liwu_0.png",
+			"type": "image",
+			"name": "anniu_liwu_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zoushi_fu_0.png",
+			"type": "image",
+			"name": "zoushi_fu_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_plum.png",
+			"type": "image",
+			"name": "dnmain_ico_plum_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_shading_input1.png",
+			"type": "image",
+			"name": "dnmain_shading_input1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_meitu.png",
+			"type": "image",
+			"name": "dnmain_ico_meitu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_shading_input2.png",
+			"type": "image",
+			"name": "dnmain_shading_input2_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_queding_0.png",
+			"type": "image",
+			"name": "anniu_queding_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_queding_1.png",
+			"type": "image",
+			"name": "anniu_queding_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/liwuditu.png",
+			"type": "image",
+			"name": "liwuditu_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_queding_2.png",
+			"type": "image",
+			"name": "anniu_queding_2_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/help_0.png",
+			"type": "image",
+			"name": "help_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_mabiao.png",
+			"type": "image",
+			"name": "dnmain_ico_mabiao_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/help_1.png",
+			"type": "image",
+			"name": "help_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/dnmain_ico_spade.png",
+			"type": "image",
+			"name": "dnmain_ico_spade_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_genhuantouxiang_0.png",
+			"type": "image",
+			"name": "anniu_genhuantouxiang_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_genghuanzhubo_0.png",
+			"type": "image",
+			"name": "anniu_genghuanzhubo_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/xiyou.png",
+			"type": "image",
+			"name": "xiyou_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/zoushi_shen_0.png",
+			"type": "image",
+			"name": "zoushi_shen_0_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_genhuantouxiang_1.png",
+			"type": "image",
+			"name": "anniu_genhuantouxiang_1_png"
+		},
+		{
+			"url": "assets/bullfight/dnmain/anniu_genghuanzhubo_1.png",
+			"type": "image",
+			"name": "anniu_genghuanzhubo_1_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/game_betRdo1.png",
+			"type": "image",
+			"name": "game_betRdo1_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/game_betRdo2.png",
+			"type": "image",
+			"name": "game_betRdo2_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/game_betRdo3.png",
+			"type": "image",
+			"name": "game_betRdo3_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/game_betRdo4.png",
+			"type": "image",
+			"name": "game_betRdo4_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/game_betRdo5.png",
+			"type": "image",
+			"name": "game_betRdo5_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/game_betRdo6.png",
+			"type": "image",
+			"name": "game_betRdo6_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_1.png",
+			"type": "image",
+			"name": "max_chip_1_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_10.png",
+			"type": "image",
+			"name": "max_chip_10_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_11.png",
+			"type": "image",
+			"name": "max_chip_11_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_12.png",
+			"type": "image",
+			"name": "max_chip_12_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_2.png",
+			"type": "image",
+			"name": "max_chip_2_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_3.png",
+			"type": "image",
+			"name": "max_chip_3_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_4.png",
+			"type": "image",
+			"name": "max_chip_4_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_5.png",
+			"type": "image",
+			"name": "max_chip_5_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_6.png",
+			"type": "image",
+			"name": "max_chip_6_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_7.png",
+			"type": "image",
+			"name": "max_chip_7_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_8.png",
+			"type": "image",
+			"name": "max_chip_8_png"
+		},
+		{
+			"url": "assets/bullfight/maxchip/max_chip_9.png",
+			"type": "image",
+			"name": "max_chip_9_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/105-3.png",
+			"type": "image",
+			"name": "105-32_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/aniu_fasong_0.png",
+			"type": "image",
+			"name": "aniu_fasong_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/aniu_fasong_1.png",
+			"type": "image",
+			"name": "aniu_fasong_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_biaoqing_0.png",
+			"type": "image",
+			"name": "anniu_biaoqing_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_biaoqing_1.png",
+			"type": "image",
+			"name": "anniu_biaoqing_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_dashang_0.png",
+			"type": "image",
+			"name": "anniu_dashang_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_dashang_1.png",
+			"type": "image",
+			"name": "anniu_dashang_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_fanhui_0.png",
+			"type": "image",
+			"name": "anniu_fanhui_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_fanhui_1.png",
+			"type": "image",
+			"name": "anniu_fanhui_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_genghuanzhubo_0.png",
+			"type": "image",
+			"name": "anniu_genghuanzhubo_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_genghuanzhubo_1.png",
+			"type": "image",
+			"name": "anniu_genghuanzhubo_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_genhuantouxiang_0.png",
+			"type": "image",
+			"name": "anniu_genhuantouxiang_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_genhuantouxiang_1.png",
+			"type": "image",
+			"name": "anniu_genhuantouxiang_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_liansong_1.png",
+			"type": "image",
+			"name": "anniu_liansong_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_liaotian_0.png",
+			"type": "image",
+			"name": "anniu_liaotian_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_liaotian_1.png",
+			"type": "image",
+			"name": "anniu_liaotian_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_liwu_0.png",
+			"type": "image",
+			"name": "anniu_liwu_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_queding_0.png",
+			"type": "image",
+			"name": "anniu_queding_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_queding_1.png",
+			"type": "image",
+			"name": "anniu_queding_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_queding_2.png",
+			"type": "image",
+			"name": "anniu_queding_22_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_quxiao_0.png",
+			"type": "image",
+			"name": "anniu_quxiao_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_quxiao_1.png",
+			"type": "image",
+			"name": "anniu_quxiao_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_shenji_0.png",
+			"type": "image",
+			"name": "anniu_shenji_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_shenji_1.png",
+			"type": "image",
+			"name": "anniu_shenji_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_tuichu_0.png",
+			"type": "image",
+			"name": "anniu_tuichu_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_tuichu_1.png",
+			"type": "image",
+			"name": "anniu_tuichu_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_woyaoshangzhuang_1.png",
+			"type": "image",
+			"name": "anniu_woyaoshangzhuang_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_woyaoshangzhuang_2.png",
+			"type": "image",
+			"name": "anniu_woyaoshangzhuang_22_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_zhensong_0.png",
+			"type": "image",
+			"name": "anniu_zhensong_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_zhensong_1.png",
+			"type": "image",
+			"name": "anniu_zhensong_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/anniu_zoushi_0.png",
+			"type": "image",
+			"name": "anniu_zoushi_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/annniu_liwu_1.png",
+			"type": "image",
+			"name": "annniu_liwu_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/biao.png",
+			"type": "image",
+			"name": "biao2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/biaoqing_kuang.png",
+			"type": "image",
+			"name": "biaoqing_kuang2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/blnn_viewtype_bg.png",
+			"type": "image",
+			"name": "blnn_viewtype_bg2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/card_back_1.png",
+			"type": "image",
+			"name": "card_back_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/card_back_2.png",
+			"type": "image",
+			"name": "card_back_22_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/chouma_max.png",
+			"type": "image",
+			"name": "chouma_max2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/couma.png",
+			"type": "image",
+			"name": "couma2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/daojishi_ditu.png",
+			"type": "image",
+			"name": "daojishi_ditu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/daojishi_zoutiao_1.png",
+			"type": "image",
+			"name": "daojishi_zoutiao_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/daojishi_zoutiao_2.png",
+			"type": "image",
+			"name": "daojishi_zoutiao_22_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dingzi_kaishixiazhu_0.png",
+			"type": "image",
+			"name": "dingzi_kaishixiazhu_0_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dingzi_kaishixiazhu_1.png",
+			"type": "image",
+			"name": "dingzi_kaishixiazhu_1_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dinkuang.png",
+			"type": "image",
+			"name": "dinkuang2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_bg.png",
+			"type": "image",
+			"name": "dnmain_bg2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_btn_left.png",
+			"type": "image",
+			"name": "dnmain_btn_left2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_btn_ok.png",
+			"type": "image",
+			"name": "dnmain_btn_ok2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_btn_ok_no.png",
+			"type": "image",
+			"name": "dnmain_btn_ok_no2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_btn_right.png",
+			"type": "image",
+			"name": "dnmain_btn_right2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_btn_sitdown.png",
+			"type": "image",
+			"name": "dnmain_btn_sitdown2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_add.png",
+			"type": "image",
+			"name": "dnmain_ico_add2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_block.png",
+			"type": "image",
+			"name": "dnmain_ico_block2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_defhead.png",
+			"type": "image",
+			"name": "dnmain_ico_defhead2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_heart.png",
+			"type": "image",
+			"name": "dnmain_ico_heart2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_loding.png",
+			"type": "image",
+			"name": "dnmain_ico_loding2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_mabiao.png",
+			"type": "image",
+			"name": "dnmain_ico_mabiao2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_meitu.png",
+			"type": "image",
+			"name": "dnmain_ico_meitu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_plum.png",
+			"type": "image",
+			"name": "dnmain_ico_plum2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_ico_spade.png",
+			"type": "image",
+			"name": "dnmain_ico_spade2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_message_bg_blue.png",
+			"type": "image",
+			"name": "dnmain_message_bg_blue2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_message_bg_red.png",
+			"type": "image",
+			"name": "dnmain_message_bg_red2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_shading_input1.png",
+			"type": "image",
+			"name": "dnmain_shading_input12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_shading_input2.png",
+			"type": "image",
+			"name": "dnmain_shading_input22_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_shading_pramt_bg.png",
+			"type": "image",
+			"name": "dnmain_shading_pramt_bg2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/dnmain_zhuang.png",
+			"type": "image",
+			"name": "dnmain_zhuang2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/gameshuomin.png",
+			"type": "image",
+			"name": "gameshuomin2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/gift_bg.png",
+			"type": "image",
+			"name": "gift_bg2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/help_0.png",
+			"type": "image",
+			"name": "help_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/help_1.png",
+			"type": "image",
+			"name": "help_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/jiesuanditu.png",
+			"type": "image",
+			"name": "jiesuanditu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/kuangtixuanzhe.png",
+			"type": "image",
+			"name": "kuangtixuanzhe2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/liaotiam.png",
+			"type": "image",
+			"name": "liaotiam2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/liwuditu.png",
+			"type": "image",
+			"name": "liwuditu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/liwuditu_0.png",
+			"type": "image",
+			"name": "liwuditu_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/qitawanjia_di.png",
+			"type": "image",
+			"name": "qitawanjia_di2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/queding_0.png",
+			"type": "image",
+			"name": "queding_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/queding_1.png",
+			"type": "image",
+			"name": "queding_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/quxiao_0.png",
+			"type": "image",
+			"name": "quxiao_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/quxiao_1.png",
+			"type": "image",
+			"name": "quxiao_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/renwuxinxi.png",
+			"type": "image",
+			"name": "renwuxinxi2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/shagnzhuang_xinxiditu.png",
+			"type": "image",
+			"name": "shagnzhuang_xinxiditu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/songli_ditu.png",
+			"type": "image",
+			"name": "songli_ditu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/suoding_0.png",
+			"type": "image",
+			"name": "suoding_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/suoding_1.png",
+			"type": "image",
+			"name": "suoding_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/suoyouwanjia_0.png",
+			"type": "image",
+			"name": "suoyouwanjia_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/suoyouwanjia_1.png",
+			"type": "image",
+			"name": "suoyouwanjia_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/taitou_xingxing_0.png",
+			"type": "image",
+			"name": "taitou_xingxing_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tanchuang_jiesuan_0.png",
+			"type": "image",
+			"name": "tanchuang_jiesuan_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tanchuang_shangzhuangliebiao.png",
+			"type": "image",
+			"name": "tanchuang_shangzhuangliebiao2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tanchuang_tuichu.png",
+			"type": "image",
+			"name": "tanchuang_tuichu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tanchuang_youxishuoming.png",
+			"type": "image",
+			"name": "tanchuang_youxishuoming2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tanchuang_zoushi_0.png",
+			"type": "image",
+			"name": "tanchuang_zoushi_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tishidi.png",
+			"type": "image",
+			"name": "tishidi2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tishi_kaishixiazhu_0.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_0_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tishi_kaishixiazhu_1.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_1_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tishi_kaishixiazhu_2.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/tishi_kaishixiazhu_3.png",
+			"type": "image",
+			"name": "tishi_kaishixiazhu_3_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/touxiangkuang_fankui.png",
+			"type": "image",
+			"name": "touxiangkuang_fankui2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/touxiang_ditu.png",
+			"type": "image",
+			"name": "touxiang_ditu2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/video_playBtton_0.png",
+			"type": "image",
+			"name": "video_playBtton_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/video_playBtton_1.png",
+			"type": "image",
+			"name": "video_playBtton_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/vip_new_icon_0.png",
+			"type": "image",
+			"name": "vip_new_icon_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/xianshi_guanbi.png",
+			"type": "image",
+			"name": "xianshi_guanbi2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/xianshi_kaiqi.png",
+			"type": "image",
+			"name": "xianshi_kaiqi2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/xinxikuang.png",
+			"type": "image",
+			"name": "xinxikuang2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/xiyou.png",
+			"type": "image",
+			"name": "xiyou2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/yemian_taitou_0.png",
+			"type": "image",
+			"name": "yemian_taitou_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/yemian_taitou_1.png",
+			"type": "image",
+			"name": "yemian_taitou_12_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zhensong kuang.png",
+			"type": "image",
+			"name": "zhensong kuang2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zhiti_jiesuan_shu_0.png",
+			"type": "image",
+			"name": "zhiti_jiesuan_shu_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zhiti_jiesuan_ying_0.png",
+			"type": "image",
+			"name": "zhiti_jiesuan_ying_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zhuang.png",
+			"type": "image",
+			"name": "zhuang2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zoushi_fu_0.png",
+			"type": "image",
+			"name": "zoushi_fu_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zoushi_shen_0.png",
+			"type": "image",
+			"name": "zoushi_shen_02_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zuoxia.png",
+			"type": "image",
+			"name": "zuoxia2_png"
+		},
+		{
+			"url": "assets/bullfight/eff/dnmain/zuoxia_mingzi_di.png",
+			"type": "image",
+			"name": "zuoxia_mingzi_di2_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_chuanjian_0.png",
+			"type": "image",
+			"name": "anniu_chuanjian_0_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_chuanjian_1.png",
+			"type": "image",
+			"name": "anniu_chuanjian_1_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_julebu_0.png",
+			"type": "image",
+			"name": "anniu_julebu_0_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_julebu_1.png",
+			"type": "image",
+			"name": "anniu_julebu_1_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_shenqing_0.png",
+			"type": "image",
+			"name": "anniu_shenqing_0_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_shenqing_1.png",
+			"type": "image",
+			"name": "anniu_shenqing_1_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_wodejulebu_0.png",
+			"type": "image",
+			"name": "anniu_wodejulebu_0_png"
+		},
+		{
+			"url": "assets/hall/club/anniu_wodejulebu_1.png",
+			"type": "image",
+			"name": "anniu_wodejulebu_1_png"
+		},
+		{
+			"url": "assets/hall/club/dianji.png",
+			"type": "image",
+			"name": "dianji_png"
+		},
+		{
+			"url": "assets/hall/club/ding.png",
+			"type": "image",
+			"name": "ding_png"
+		},
+		{
+			"url": "assets/hall/club/ditu.png",
+			"type": "image",
+			"name": "ditu_png"
+		},
+		{
+			"url": "assets/hall/club/xian.png",
+			"type": "image",
+			"name": "xian_png"
+		},
+		{
+			"url": "assets/hall/club/俱乐部未选择状态.jpg",
+			"type": "image",
+			"name": "俱乐部未选择状态_jpg"
+		},
+		{
+			"url": "assets/hall/club/俱乐部选择状态.jpg",
+			"type": "image",
+			"name": "俱乐部选择状态_jpg"
+		},
+		{
+			"url": "assets/hall/club/我的俱乐部申请加入时候.jpg",
+			"type": "image",
+			"name": "我的俱乐部申请加入时候_jpg"
+		},
+		{
+			"url": "assets/hall/fortunelist/anniu_caifupaihang_0.png",
+			"type": "image",
+			"name": "anniu_caifupaihang_0_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/anniu_caifupaihang_1.png",
+			"type": "image",
+			"name": "anniu_caifupaihang_1_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/anniu_meilipaihang_0.png",
+			"type": "image",
+			"name": "anniu_meilipaihang_0_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/anniu_meilipaihang_1.png",
+			"type": "image",
+			"name": "anniu_meilipaihang_1_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/ditu_caifubang.png",
+			"type": "image",
+			"name": "ditu_caifubang_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/profile_avatar_bg_frame_1.png",
+			"type": "image",
+			"name": "profile_avatar_bg_frame_1_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/profile_avatar_bg_frame_2.png",
+			"type": "image",
+			"name": "profile_avatar_bg_frame_2_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/ranking_title_shading.png",
+			"type": "image",
+			"name": "ranking_title_shading_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/vip_icon_0.png",
+			"type": "image",
+			"name": "vip_icon_0_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/vip_icon_1.png",
+			"type": "image",
+			"name": "vip_icon_1_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/vip_icon_2.png",
+			"type": "image",
+			"name": "vip_icon_2_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/vip_icon_3.png",
+			"type": "image",
+			"name": "vip_icon_3_png"
+		},
+		{
+			"url": "assets/hall/fortunelist/vip_icon_4.png",
+			"type": "image",
+			"name": "vip_icon_4_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_anniu_huodong_0.png",
+			"type": "image",
+			"name": "hall_anniu_huodong_0_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_anniu_huodong_1.png",
+			"type": "image",
+			"name": "hall_anniu_huodong_1_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_activity.png",
+			"type": "image",
+			"name": "hall_btn_activity_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_activity_no.png",
+			"type": "image",
+			"name": "hall_btn_activity_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_close.png",
+			"type": "image",
+			"name": "hall_btn_close_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_club.png",
+			"type": "image",
+			"name": "hall_btn_club_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_club_no.png",
+			"type": "image",
+			"name": "hall_btn_club_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_friends.png",
+			"type": "image",
+			"name": "hall_btn_friends_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_friends_no.png",
+			"type": "image",
+			"name": "hall_btn_friends_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_left_close.png",
+			"type": "image",
+			"name": "hall_btn_left_close_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_left_open.png",
+			"type": "image",
+			"name": "hall_btn_left_open_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_mail.png",
+			"type": "image",
+			"name": "hall_btn_mail_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_mail_no.png",
+			"type": "image",
+			"name": "hall_btn_mail_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_notice.png",
+			"type": "image",
+			"name": "hall_btn_notice_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_notice_no.png",
+			"type": "image",
+			"name": "hall_btn_notice_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_regallist.png",
+			"type": "image",
+			"name": "hall_btn_regallist_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_regallist_no.png",
+			"type": "image",
+			"name": "hall_btn_regallist_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_setting.png",
+			"type": "image",
+			"name": "hall_btn_setting_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_setting_no.png",
+			"type": "image",
+			"name": "hall_btn_setting_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_sign.png",
+			"type": "image",
+			"name": "hall_btn_sign_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_sign_no.png",
+			"type": "image",
+			"name": "hall_btn_sign_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_store.png",
+			"type": "image",
+			"name": "hall_btn_store_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_store_no.png",
+			"type": "image",
+			"name": "hall_btn_store_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_vip.png",
+			"type": "image",
+			"name": "hall_btn_vip_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_btn_vip_no.png",
+			"type": "image",
+			"name": "hall_btn_vip_no_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_ico_sound.png",
+			"type": "image",
+			"name": "hall_ico_sound_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_niu.png",
+			"type": "image",
+			"name": "hall_niu_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_shading_activity.png",
+			"type": "image",
+			"name": "hall_shading_activity_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_shading_bg.png",
+			"type": "image",
+			"name": "hall_shading_bg_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_shading_friends_bg.png",
+			"type": "image",
+			"name": "hall_shading_friends_bg_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_shading_left.png",
+			"type": "image",
+			"name": "hall_shading_left_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_shading_top_bg.png",
+			"type": "image",
+			"name": "hall_shading_top_bg_png"
+		},
+		{
+			"url": "assets/hall/hallmain/hall_shouyedi.png",
+			"type": "image",
+			"name": "hall_shouyedi_png"
+		},
+		{
+			"url": "assets/hall/hallmain/main_bg.png",
+			"type": "image",
+			"name": "main_bg_png"
+		},
+		{
+			"url": "assets/hall/hallmain/tongzhi_1.png",
+			"type": "image",
+			"name": "tongzhi_1_png"
+		},
+		{
+			"url": "assets/hall/hallmain/tongzi_shading_bg.png",
+			"type": "image",
+			"name": "tongzi_shading_bg_png"
+		},
+		{
+			"url": "assets/hall/hallmain/yang.png",
+			"type": "image",
+			"name": "yang_png"
+		},
+		{
+			"url": "assets/hall/hallmain/zhibozhong .png",
+			"type": "image",
+			"name": "zhibozhong _png"
+		},
+		{
+			"url": "assets/hall/luckdraw/anniu_xinyunzhuanpan_0.png",
+			"type": "image",
+			"name": "anniu_xinyunzhuanpan_0_png"
+		},
+		{
+			"url": "assets/hall/luckdraw/anniu_xinyunzhuanpan_1.png",
+			"type": "image",
+			"name": "anniu_xinyunzhuanpan_1_png"
+		},
+		{
+			"url": "assets/hall/luckdraw/draw_bg.png",
+			"type": "image",
+			"name": "draw_bg_png"
+		},
+		{
+			"url": "assets/hall/luckdraw/zhuangpan_0.png",
+			"type": "image",
+			"name": "zhuangpan_0_png"
+		},
+		{
+			"url": "assets/hall/luckdraw/zhuanpan_0.png",
+			"type": "image",
+			"name": "zhuanpan_0_png"
+		},
+		{
+			"url": "assets/hall/luckdraw/zhuanpan_zhizhen_0.png",
+			"type": "image",
+			"name": "zhuanpan_zhizhen_0_png"
+		},
+		{
+			"url": "assets/hall/luckdraw/zhuanpan_zhizhen_1.png",
+			"type": "image",
+			"name": "zhuanpan_zhizhen_1_png"
+		},
+		{
+			"url": "assets/hall/luckdraw/zhuanpan_zhizhen_2.png",
+			"type": "image",
+			"name": "zhuanpan_zhizhen_2_png"
+		},
+		{
+			"url": "assets/hall/mail/anniu_shouqu_0.png",
+			"type": "image",
+			"name": "anniu_shouqu_0_png"
+		},
+		{
+			"url": "assets/hall/mail/anniu_shouqu_1.png",
+			"type": "image",
+			"name": "anniu_shouqu_1_png"
+		},
+		{
+			"url": "assets/hall/mail/anniu_shouqu_2.png",
+			"type": "image",
+			"name": "anniu_shouqu_2_png"
+		},
+		{
+			"url": "assets/hall/mail/anniu_yijianshouqu_0.png",
+			"type": "image",
+			"name": "anniu_yijianshouqu_0_png"
+		},
+		{
+			"url": "assets/hall/mail/anniu_yijianshouqu_1.png",
+			"type": "image",
+			"name": "anniu_yijianshouqu_1_png"
+		},
+		{
+			"url": "assets/hall/mail/anniu_yijianshouqu_2.png",
+			"type": "image",
+			"name": "anniu_yijianshouqu_2_png"
+		},
+		{
+			"url": "assets/hall/mail/mail_bg.png",
+			"type": "image",
+			"name": "mail_bg_png"
+		},
+		{
+			"url": "assets/hall/mail/mail_ico_gift_no.png",
+			"type": "image",
+			"name": "mail_ico_gift_no_png"
+		},
+		{
+			"url": "assets/hall/mail/mail_ico_gift_yes.png",
+			"type": "image",
+			"name": "mail_ico_gift_yes_png"
+		},
+		{
+			"url": "assets/hall/mail/mail_shading_itembg.png",
+			"type": "image",
+			"name": "mail_shading_itembg_png"
+		},
+		{
+			"url": "assets/hall/mail/newsico_no.png",
+			"type": "image",
+			"name": "newsico_no_png"
+		},
+		{
+			"url": "assets/hall/mail/newsico_yes.png",
+			"type": "image",
+			"name": "newsico_yes_png"
+		},
+		{
+			"url": "assets/hall/mail/youjianneirong.png",
+			"type": "image",
+			"name": "youjianneirong_png"
+		},
+		{
+			"url": "assets/hall/mall/anniu_choumashanchen_0.png",
+			"type": "image",
+			"name": "anniu_choumashanchen_0_png"
+		},
+		{
+			"url": "assets/hall/mall/anniu_choumashanchen_1.png",
+			"type": "image",
+			"name": "anniu_choumashanchen_1_png"
+		},
+		{
+			"url": "assets/hall/mall/anniu_qitawuping_0.png",
+			"type": "image",
+			"name": "anniu_qitawuping_0_png"
+		},
+		{
+			"url": "assets/hall/mall/anniu_qitawuping_1.png",
+			"type": "image",
+			"name": "anniu_qitawuping_1_png"
+		},
+		{
+			"url": "assets/hall/mall/anniu_zhuanshishangchen_0.png",
+			"type": "image",
+			"name": "anniu_zhuanshishangchen_0_png"
+		},
+		{
+			"url": "assets/hall/mall/anniu_zhuanshishangchen_1.png",
+			"type": "image",
+			"name": "anniu_zhuanshishangchen_1_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_0.png",
+			"type": "image",
+			"name": "choumashanchen_0_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_0_no.png",
+			"type": "image",
+			"name": "choumashanchen_0_no_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_1.png",
+			"type": "image",
+			"name": "choumashanchen_1_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_1_no.png",
+			"type": "image",
+			"name": "choumashanchen_1_no_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_2.png",
+			"type": "image",
+			"name": "choumashanchen_2_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_2_no.png",
+			"type": "image",
+			"name": "choumashanchen_2_no_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_3.png",
+			"type": "image",
+			"name": "choumashanchen_3_png"
+		},
+		{
+			"url": "assets/hall/mall/chouma/choumashanchen_3_no.png",
+			"type": "image",
+			"name": "choumashanchen_3_no_png"
+		},
+		{
+			"url": "assets/hall/mall/mall_bg.png",
+			"type": "image",
+			"name": "mall_bg_png"
+		},
+		{
+			"url": "assets/hall/mall/zhoukoufu.png",
+			"type": "image",
+			"name": "zhoukoufu_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_0.png",
+			"type": "image",
+			"name": "zhuanshishanchen_0_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_0_no.png",
+			"type": "image",
+			"name": "zhuanshishanchen_0_no_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_1.png",
+			"type": "image",
+			"name": "zhuanshishanchen_1_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_1_no.png",
+			"type": "image",
+			"name": "zhuanshishanchen_1_no_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_2.png",
+			"type": "image",
+			"name": "zhuanshishanchen_2_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_2_no.png",
+			"type": "image",
+			"name": "zhuanshishanchen_2_no_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_3.png",
+			"type": "image",
+			"name": "zhuanshishanchen_3_png"
+		},
+		{
+			"url": "assets/hall/mall/zhuanshi/zhuanshishanchen_3_no.png",
+			"type": "image",
+			"name": "zhuanshishanchen_3_no_png"
+		},
+		{
+			"url": "assets/hall/notice/notice_bg.png",
+			"type": "image",
+			"name": "notice_bg_png"
+		},
+		{
+			"url": "assets/hall/setting/off_button.png",
+			"type": "image",
+			"name": "off_button_png"
+		},
+		{
+			"url": "assets/hall/setting/on_button.png",
+			"type": "image",
+			"name": "on_button_png"
+		},
+		{
+			"url": "assets/hall/setting/tanchuang_shezhi.png",
+			"type": "image",
+			"name": "tanchuang_shezhi_png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_baocun_0.png",
+			"type": "image",
+			"name": "anniu_baocun_0_png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_baocun_1.png",
+			"type": "image",
+			"name": "anniu_baocun_1_png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_bianji_0 .png",
+			"type": "image",
+			"name": "anniu_bianji_0 _png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_bianji_1.png",
+			"type": "image",
+			"name": "anniu_bianji_1_png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_fengxiang_0 .png",
+			"type": "image",
+			"name": "anniu_fengxiang_0 _png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_fengxiang_01.png",
+			"type": "image",
+			"name": "anniu_fengxiang_01_png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_zhensongchouma_0.png",
+			"type": "image",
+			"name": "anniu_zhensongchouma_0_png"
+		},
+		{
+			"url": "assets/hall/userinfo/anniu_zhensongchouma_1.png",
+			"type": "image",
+			"name": "anniu_zhensongchouma_1_png"
+		},
+		{
+			"url": "assets/hall/userinfo/tanchuang_shuru.png",
+			"type": "image",
+			"name": "tanchuang_shuru_png"
+		},
+		{
+			"url": "assets/hall/userinfo/yonghuxinxi_ditu.png",
+			"type": "image",
+			"name": "yonghuxinxi_ditu_png"
+		},
+		{
+			"url": "assets/hall/vip/anniu_daojishi.png",
+			"type": "image",
+			"name": "anniu_daojishi_png"
+		},
+		{
+			"url": "assets/hall/vip/anniu_lingqu_0.png",
+			"type": "image",
+			"name": "anniu_lingqu_0_png"
+		},
+		{
+			"url": "assets/hall/vip/anniu_lingqu_1.png",
+			"type": "image",
+			"name": "anniu_lingqu_1_png"
+		},
+		{
+			"url": "assets/hall/vip/anniu_shanchengoumai_0.png",
+			"type": "image",
+			"name": "anniu_shanchengoumai_0_png"
+		},
+		{
+			"url": "assets/hall/vip/anniu_shanchengoumai_1.png",
+			"type": "image",
+			"name": "anniu_shanchengoumai_1_png"
+		},
+		{
+			"url": "assets/hall/vip/chouma.png",
+			"type": "image",
+			"name": "chouma_png"
+		},
+		{
+			"url": "assets/hall/vip/chouma_shuzikuang.png",
+			"type": "image",
+			"name": "chouma_shuzikuang_png"
+		},
+		{
+			"url": "assets/hall/vip/jianglowenzi.png",
+			"type": "image",
+			"name": "jianglowenzi_png"
+		},
+		{
+			"url": "assets/hall/vip/jianglowenzi_0.png",
+			"type": "image",
+			"name": "jianglowenzi_0_png"
+		},
+		{
+			"url": "assets/hall/vip/vip_bg.png",
+			"type": "image",
+			"name": "vip_bg_png"
+		},
+		{
+			"url": "assets/hall/vip/vip_shuoming.png",
+			"type": "image",
+			"name": "vip_shuoming_png"
+		},
+		{
+			"url": "config/chengzhangConfig.json",
+			"type": "json",
+			"name": "chengzhangConfig_json"
+		},
+		{
+			"url": "config/gameConfig.json",
+			"type": "json",
+			"name": "gameConfig_json"
+		},
+		{
+			"url": "config/libaoConfig.json",
+			"type": "json",
+			"name": "libaoConfig_json"
+		},
+		{
+			"url": "config/liwuConfig.json",
+			"type": "json",
+			"name": "liwuConfig_json"
+		},
+		{
+			"url": "config/meilizhichengzhangConfig.json",
+			"type": "json",
+			"name": "meilizhichengzhangConfig_json"
+		},
+		{
+			"url": "config/shangpinConfig.json",
+			"type": "json",
+			"name": "shangpinConfig_json"
+		},
+		{
+			"url": "font/font_gold_3.png",
+			"type": "image",
+			"name": "font_gold_3_png"
+		},
+		{
+			"url": "font/font_gold_0.fnt",
+			"type": "font",
+			"name": "font_gold_0_fnt"
+		},
+		{
+			"url": "font/font_gold_1.fnt",
+			"type": "font",
+			"name": "font_gold_1_fnt"
+		},
+		{
+			"url": "font/ledfont.fnt",
+			"type": "font",
+			"name": "ledfont_fnt"
+		},
+		{
+			"url": "font/font_gold_2.fnt",
+			"type": "font",
+			"name": "font_gold_2_fnt"
+		},
+		{
+			"url": "font/font_gold_3.fnt",
+			"type": "font",
+			"name": "font_gold_3_fnt"
+		},
+		{
+			"url": "font/font_0.png",
+			"type": "image",
+			"name": "font_0_png"
+		},
+		{
+			"url": "font/timefont.png",
+			"type": "image",
+			"name": "timefont_png"
+		},
+		{
+			"url": "font/font_1.png",
+			"type": "image",
+			"name": "font_1_png"
+		},
+		{
+			"url": "font/font_0.fnt",
+			"type": "font",
+			"name": "font_0_fnt"
+		},
+		{
+			"url": "font/timefont.fnt",
+			"type": "font",
+			"name": "timefont_fnt"
+		},
+		{
+			"url": "font/font_1.fnt",
+			"type": "font",
+			"name": "font_1_fnt"
+		},
+		{
+			"url": "font/font_gold_0.png",
+			"type": "image",
+			"name": "font_gold_0_png"
+		},
+		{
+			"url": "font/font_gold_1.png",
+			"type": "image",
+			"name": "font_gold_1_png"
+		},
+		{
+			"url": "font/ledfont.png",
+			"type": "image",
+			"name": "ledfont_png"
+		},
+		{
+			"url": "font/font_gold_2.png",
+			"type": "image",
+			"name": "font_gold_2_png"
+		}
+	]
+}

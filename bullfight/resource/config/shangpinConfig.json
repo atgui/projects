@@ -1,0 +1,163 @@
+ [
+    {
+      "id": "1",
+      "style": "1",
+      "name": "60钻",
+      "value": "60",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "6",
+      "icon": "shop_diamondIcon_1"
+    },
+    {
+      "id": "2",
+      "style": "1",
+      "name": "300钻",
+      "value": "300",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "30",
+      "icon": "shop_diamondIcon_2"
+    },
+    {
+      "id": "3",
+      "style": "1",
+      "name": "1000钻",
+      "value": "1000",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "100",
+      "icon": "shop_diamondIcon_3"
+    },
+    {
+      "id": "4",
+      "style": "1",
+      "name": "2000钻",
+      "value": "2000",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "200",
+      "icon": "shop_diamondIcon_4"
+    },
+    {
+      "id": "5",
+      "style": "1",
+      "name": "5000钻",
+      "value": "5000",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "500",
+      "icon": "shop_diamondIcon_5"
+    },
+    {
+      "id": "6",
+      "style": "1",
+      "name": "10000钻",
+      "value": "10000",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "1000",
+      "icon": "shop_diamondIcon_6"
+    },
+    {
+      "id": "7",
+      "style": "1",
+      "name": "20000钻",
+      "value": "20000",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "2000",
+      "icon": "shop_diamondIcon_7"
+    },
+    {
+      "id": "8",
+      "style": "1",
+      "name": "50000钻",
+      "value": "50000",
+      "needDiamond": "0",
+      "needGoldcoins": "0",
+      "needMoney": "5000",
+      "icon": "shop_diamondIcon_8"
+    },
+    {
+      "id": "9",
+      "style": "2",
+      "name": "100个筹码",
+      "value": "100",
+      "needDiamond": "1",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_1"
+    },
+    {
+      "id": "11",
+      "style": "2",
+      "name": "500个筹码",
+      "value": "500",
+      "needDiamond": "5",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_2"
+    },
+    {
+      "id": "12",
+      "style": "2",
+      "name": "1000个筹码",
+      "value": "1000",
+      "needDiamond": "10",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_3"
+    },
+    {
+      "id": "13",
+      "style": "2",
+      "name": "5000个筹码",
+      "value": "5000",
+      "needDiamond": "50",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_4"
+    },
+    {
+      "id": "14",
+      "style": "2",
+      "name": "10000个筹码",
+      "value": "10000",
+      "needDiamond": "100",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_5"
+    },
+    {
+      "id": "15",
+      "style": "2",
+      "name": "100000个筹码",
+      "value": "100000",
+      "needDiamond": "1000",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_6"
+    },
+    {
+      "id": "16",
+      "style": "2",
+      "name": "1000000个筹码",
+      "value": "1000000",
+      "needDiamond": "10000",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_7"
+    },
+    {
+      "id": "17",
+      "style": "2",
+      "name": "10000000个筹码",
+      "value": "10000000",
+      "needDiamond": "100000",
+      "needGoldcoins": "0",
+      "needMoney": "0",
+      "icon": "shop_goldcoins_8"
+    }
+  ]
+

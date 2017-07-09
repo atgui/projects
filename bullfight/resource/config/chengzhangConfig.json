@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "level": "0",
+    "needReputation": "0",
+    "gainReputation": "50",
+    "gainGold": "10"
+  },
+  {
+    "id": "2",
+    "level": "1",
+    "needReputation": "500",
+    "gainReputation": "100",
+    "gainGold": "20"
+  },
+  {
+    "id": "3",
+    "level": "2",
+    "needReputation": "2000",
+    "gainReputation": "100",
+    "gainGold": "30"
+  },
+  {
+    "id": "4",
+    "level": "3",
+    "needReputation": "10000",
+    "gainReputation": "200",
+    "gainGold": "40"
+  },
+  {
+    "id": "5",
+    "level": "4",
+    "needReputation": "50000",
+    "gainReputation": "200",
+    "gainGold": "50"
+  },
+  {
+    "id": "6",
+    "level": "5",
+    "needReputation": "200000",
+    "gainReputation": "500",
+    "gainGold": "100"
+  },
+  {
+    "id": "7",
+    "level": "6",
+    "needReputation": "500000",
+    "gainReputation": "500",
+    "gainGold": "200"
+  },
+  {
+    "id": "8",
+    "level": "7",
+    "needReputation": "1000000",
+    "gainReputation": "1000",
+    "gainGold": "300"
+  },
+  {
+    "id": "9",
+    "level": "8",
+    "needReputation": "10000000",
+    "gainReputation": "1000",
+    "gainGold": "400"
+  },
+  {
+    "id": "10",
+    "level": "9",
+    "needReputation": "50000000",
+    "gainReputation": "2000",
+    "gainGold": "500"
+  },
+  {
+    "id": "11",
+    "level": "10",
+    "needReputation": "100000000",
+    "gainReputation": "2000",
+    "gainGold": "1000"
+  }
+]

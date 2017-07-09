@@ -1,0 +1,171 @@
+ [
+    {
+      "id": "1",
+      "name": "钻石礼包",
+      "diamond": "10",
+      "goldcoins": "0",
+      "icon": "giftBag_1"
+    },
+    {
+      "id": "2",
+      "name": "钻石礼包",
+      "diamond": "20",
+      "goldcoins": "0",
+      "icon": "giftBag_2"
+    },
+    {
+      "id": "3",
+      "name": "钻石礼包",
+      "diamond": "50",
+      "goldcoins": "0",
+      "icon": "giftBag_3"
+    },
+    {
+      "id": "4",
+      "name": "钻石礼包",
+      "diamond": "100",
+      "goldcoins": "0",
+      "icon": "giftBag_4"
+    },
+    {
+      "id": "5",
+      "name": "钻石礼包",
+      "diamond": "200",
+      "goldcoins": "0",
+      "icon": "giftBag_5"
+    },
+    {
+      "id": "6",
+      "name": "新手钻石礼包",
+      "diamond": "500",
+      "goldcoins": "0",
+      "icon": "giftBag_6"
+    },
+    {
+      "id": "7",
+      "name": "钻石礼包",
+      "diamond": "1000",
+      "goldcoins": "0",
+      "icon": "giftBag_7"
+    },
+    {
+      "id": "8",
+      "name": "钻石礼包",
+      "diamond": "2000",
+      "goldcoins": "0",
+      "icon": "giftBag_8"
+    },
+    {
+      "id": "9",
+      "name": "筹码礼包",
+      "diamond": "0",
+      "goldcoins": "10",
+      "icon": "giftBag_1"
+    },
+    {
+      "id": "11",
+      "name": "筹码礼包",
+      "diamond": "0",
+      "goldcoins": "20",
+      "icon": "giftBag_2"
+    },
+    {
+      "id": "12",
+      "name": "新手筹码礼包",
+      "diamond": "0",
+      "goldcoins": "50",
+      "icon": "giftBag_3"
+    },
+    {
+      "id": "13",
+      "name": "筹码礼包",
+      "diamond": "0",
+      "goldcoins": "100",
+      "icon": "giftBag_4"
+    },
+    {
+      "id": "14",
+      "name": "筹码礼包",
+      "diamond": "0",
+      "goldcoins": "200",
+      "icon": "giftBag_5"
+    },
+    {
+      "id": "15",
+      "name": "筹码礼包",
+      "diamond": "0",
+      "goldcoins": "500",
+      "icon": "giftBag_6"
+    },
+    {
+      "id": "16",
+      "name": "筹码礼包",
+      "diamond": "0",
+      "goldcoins": "1000",
+      "icon": "giftBag_7"
+    },
+    {
+      "id": "17",
+      "name": "筹码礼包",
+      "diamond": "0",
+      "goldcoins": "2000",
+      "icon": "giftBag_8"
+    },
+    {
+      "id": "18",
+      "name": "圣诞节大宝箱",
+      "diamond": "10",
+      "goldcoins": "10",
+      "icon": "giftBag_1"
+    },
+    {
+      "id": "19",
+      "name": "大宝箱",
+      "diamond": "20",
+      "goldcoins": "20",
+      "icon": "giftBag_2"
+    },
+    {
+      "id": "20",
+      "name": "更新版本大宝箱",
+      "diamond": "50",
+      "goldcoins": "50",
+      "icon": "giftBag_3"
+    },
+    {
+      "id": "21",
+      "name": "大宝箱",
+      "diamond": "100",
+      "goldcoins": "100",
+      "icon": "giftBag_4"
+    },
+    {
+      "id": "22",
+      "name": "大宝箱",
+      "diamond": "200",
+      "goldcoins": "200",
+      "icon": "giftBag_5"
+    },
+    {
+      "id": "23",
+      "name": "大宝箱",
+      "diamond": "500",
+      "goldcoins": "500",
+      "icon": "giftBag_6"
+    },
+    {
+      "id": "24",
+      "name": "大宝箱",
+      "diamond": "1000",
+      "goldcoins": "1000",
+      "icon": "giftBag_7"
+    },
+    {
+      "id": "25",
+      "name": "大宝箱",
+      "diamond": "2000",
+      "goldcoins": "2000",
+      "icon": "giftBag_8"
+    }
+  ]
+
