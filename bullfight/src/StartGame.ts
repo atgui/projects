@@ -6,7 +6,7 @@ class StartGame {
                 AdaptiveManager.instance.start();
                 SceneManager.instance.addScene("loading", new BigLoadingScene);
                 SceneManager.instance.addScene("login", new LoginScene);
-                SceneManager.instance.addScene("hall", new HallScene);
+                // SceneManager.instance.addScene("hall", new HallScene);
                 SceneManager.instance.addScene("wanRenDouNiu", new WanRenDouNiuScene);
 
                 //        SocketManager.instance.addEventListener(GameEvent.SOCKET_CONNECTED,this._socketConnected,this);

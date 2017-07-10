@@ -37,10 +37,14 @@ module wanRenDouNiu {
 
 		public hide() {
 			for (var i: number = 0; i < this.cards.length; i++) {
-				this.cards[i].source = "card_bg_png";
+				this.cards[i].texture = RES.getRes("card_bg_png");
 				this.cards[i].visible = false;
 			}
 			this.niuGroup.visible = false;
+			for (var i: number = 0; i < this._timeArr.length; i++) {
+				clearTimeout(this._timeArr[i]);
+			}
+			this._timeArr = [];
 		}
 		public showCardBg(index: number) {
 			if (this.cards[index]) {
@@ -49,104 +53,78 @@ module wanRenDouNiu {
 		}
 
 		public niuImage: eui.Image;
+		private _callFun: Function;
+		private _evt: any;
+		private _timeArr: Array<number> = new Array<number>();
+
 
 		///显示牛
-		public showCardNiu(cgm: CardGroupModel) {
+		public showCardNiu(cgm: CardGroupModel, backFun: Function, evt: any) {
 			var __self = this;
-			var arr = this.cards;
-			arr.forEach(function (item) {
-				item.visible = true;
-			});
-			EffectUtils.showCard(arr, -30, 0, showCardComplete1, this);
-			var gpSP = this.cardGroup;
-			function showCardComplete1() {
-				SoundManager.instance.playDouNiuResult(cgm.cardStyle);
-				for (var i: number = 0; i < arr.length; i++) {
-					var resStr: string = "";
-					var resStr: string =
-						arr[i].texture = RES.getRes(resStr);
-					arr[i].skewY = 30;
-					arr[i].scaleX = 0;
-					var bomb: game.CardEffMovieClip = new game.CardEffMovieClip(this._cardMcFactory.generateMovieClipData("eff_2"));
-					bomb.x = arr[i].x + 10;
-					bomb.y = arr[i].y + arr[i].height / 2;
-					bomb.scaleX = bomb.scaleY = 1;
-					gpSP.addChild(bomb);
+			this._callFun = backFun;
+			this._evt = evt;
+			this._ixxx = 0;
+			try {
+				for (var i: number = 0; i < this.cards.length - 1; i++) {
+					this.cards[i].visible = true;
+					(function (j) {
+						var arr = [];
+						var v: number = j;
+						arr.push(__self.cards[j]);
+						var t = setTimeout(function () {
+							__self._showCard(arr, cgm, v);
+						}, j * 50);
+						__self._timeArr.push(t);
+					})(i);
 				}
-				var __self = this;
-				EffectUtils.showCard(arr, 0, 1, showCardComplete2, __self);
-			}
-			function showCardComplete2() {
-				for (var i: number = 0; i < arr.length; i++) {
-					arr[i].source = cgm.cards[i].bigRes;
-				}
-				__self.niuGroup.visible = true;
-				__self.niuImage.source = "blnn_ftp_" + cgm.cardStyle + "_png";
-				__self.niuImage.scaleX = 2;
-				__self.niuImage.scaleY = 2;
-				TweenMax.to(__self.niuImage, 0.2, { scaleY: 1, scaleX: 1 });
+			} catch (e) {
+				// this._callFun.apply(this._evt);
+				console.log(e);
 			}
 		}
 		public cardGroup: eui.Group;
-
+		private _ixxx: number = 0;
 		/**
-		 * 亮牌
+		 * 显示一张牌
 		 */
-		// public showCard(obj: any): void {
-		// 	EffectUtils.showCard(this.cards, 0, 1, showCardComplete2, this);
-		// 	function showCardComplete2() {
-		// 		// this._reportCrad();
-		// 	}
-		//obj.winScoreList=winScoreList;
-		// this._view.myGoldLabel.text = obj.myGold;
-		// var seatList: Array<ResultModel> = obj.seatList;
-		// var winScoreList: Array<number> = obj.winScoreList;
-		//obj.topArr=topArr;
-		// for (var i: number = 0; i < this.cards.length; i++) {
-		// 	var cardList: eui.Image = this.cards[i];
-		// 	// var modList: Array<common.CardModel> = seatList[i].cardModelList;
-		// 	var delayTime: number = 1000 * i;
-		// 	var idTimeout: number = egret.setTimeout(
-		// 		function (dcardList, di, dseatInfo, dwinScoreList) {
-		// 			this._flop(dcardList);
-		// 		}, this, delayTime, cardList, i, seatList[i], winScoreList
-		// 	);
-		// }
-		// var dTimeout: number = egret.setTimeout(function (dobj) {
-		// 	new SettlementPopup(dobj);
-		// }, this, 8000, obj
-		// );
-		// }
+		private _showCard(arr: Array<eui.Image>, cgm, v) {
+			var __self = this;
+			var cgm1 = cgm;
+			var gpSP = this.cardGroup;
+			EffectUtils.showCard(arr, -30, 0, _showCardComplete1, this);
+			function _showCardComplete1() {
+				var resStr: string = cgm1.cards[v].bigRes;//"";
+				var resStr: string = arr[0].texture = RES.getRes(resStr);
+				arr[0].skewY = 30;
+				arr[0].scaleX = 0;
+				var bomb: game.CardEffMovieClip = new game.CardEffMovieClip(this._cardMcFactory.generateMovieClipData("eff_2"));
+				bomb.x = arr[0].x;// - arr[0].width / 2;
+				bomb.y = arr[0].y;// - arr[0].height / 2;
+				bomb.scaleX = bomb.scaleY = 1;
+				gpSP.addChild(bomb);
+				EffectUtils.showCard(arr, 0, 1, _showCardComplete2, this);
+			}
+			function _showCardComplete2() {
+				__self._ixxx++;
+				if (__self._ixxx == 4) {
+					v++;
+					var arr1 = [];
+					arr1.push(__self.cards[v]);
+					setTimeout(function () {
+						__self._showCard(arr1, cgm1, v);
+					}, 300);
+				} else if (__self._ixxx == 5) {
+					__self.niuGroup.visible = true;
+					__self.niuImage.source = "blnn_ftp_" + cgm.cardStyle + "_png";
+					__self.niuImage.scaleX = 2;
+					__self.niuImage.scaleY = 2;
+					TweenMax.to(__self.niuImage, 0.2, { scaleY: 1, scaleX: 1 });
+					SoundManager.instance.playDouNiuResult(cgm1.cardStyle);
+					__self._callFun.apply(__self._evt);
+				}
+			}
+		}
 
-		/**
-		 * 翻盘
-		 **/
-		// private _flop(arr: Array<eui.Image>, ) {
-		// 	var cardList: Array<eui.Image> = this.cards;// seatInfo.cardModelList;
-		// 	EffectUtils.showCard(arr, -30, 0, showCardComplete1, this);
-		// 	// var gpSP: eui.Group = this.cardGroup;
-		// 	// if (did > 0) {
-		// 	// 	gpSP = this.betRegionArr[did - 1].cardGroup;
-		// 	// }
-		// 	function showCardComplete1() {
-		// 		for (var i: number = 0; i < arr.length; i++) {
-		// 			var resStr: string = "poker_03_png";//cardList[i].resUrl;
-		// 			var resStr: string = arr[i].texture = RES.getRes(resStr);
-		// 			arr[i].skewY = 30;
-		// 			arr[i].scaleX = 0;
-		// 			// var bomb: game.CardEffMovieClip = new game.CardEffMovieClip(this._cardMcFactory.generateMovieClipData("eff_2"));
-		// 			// bomb.x = arr[i].x;
-		// 			// bomb.y = arr[i].y;
-		// 			// bomb.scaleX = bomb.scaleY = 1.5;
-		// 			// gpSP.addChild(bomb);
-		// 		}
-		// 		EffectUtils.showCard(arr, 0, 1, showCardComplete2, this);
-		// 	}
-		// 	function showCardComplete2() {
-		// 		// this._reportCrad();
-
-		// 	}
-		// }
 		public removeEvent(): void {
 			this.removeEventListener(eui.UIEvent.COMPLETE, this._onAddToStage, this);
 		}

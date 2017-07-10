@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="CardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:wanRenDouNiu="wanRenDouNiu.*" width="204" height="306.8">
-	<e:Image id="bg" horizontalCenter="0" top="0" source="wr_meihua_png"/>
-	<e:Image id="tIcon" y="78" anchorOffsetY="0" anchorOffsetX="0" source="wr_chip_meihua_png" x="49" touchEnabled="false"/>
-	<e:Group id="chipGroup" height="96" y="61" anchorOffsetY="0" anchorOffsetX="0" x="1" width="201"/>
-	<e:Image id="myBetBg" source="wr_sz_bg_png" x="6" y="162" rotation="359.94" touchEnabled="false"/>
-	<e:Label id="mySelfLabel" text="99999" size="20" anchorOffsetY="0" height="29" verticalAlign="middle" anchorOffsetX="0" width="79" textAlign="center" textColor="0xf9b102" x="6" y="161.8" bold="true" touchEnabled="false"/>
-	<e:Label id="winScoreLabel" text="999990" size="30" anchorOffsetY="0" height="29" verticalAlign="middle" anchorOffsetX="0" width="103" textAlign="center" textColor="0xF9B102" x="86" y="161" bold="true" touchEnabled="false"/>
-	<e:Group id="infoGroup" width="185" height="41" x="12" y="15" anchorOffsetX="0" anchorOffsetY="0">
-		<e:Label id="totalBetLabel" text="60000" size="30" anchorOffsetY="0" height="29" verticalAlign="middle" anchorOffsetX="0" left="1" verticalCenter="1" width="183" bold="true" textColor="0xf9b102" textAlign="center" touchEnabled="false"/>
+<e:Skin class="CardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:wanRenDouNiu="wanRenDouNiu.*" width="204" height="292.8">
+	<e:Group id="cGroup" width="204" height="186" x="102" y="98" anchorOffsetX="102" anchorOffsetY="98">
+		<e:Image id="bg" horizontalCenter="0" top="0" source="wr_meihua_png" x="4" y="-1" scaleX="1" scaleY="1"/>
+		<e:Image id="tIcon" y="61.59" anchorOffsetY="0" anchorOffsetX="0" source="wr_chip_meihua_png" x="56.7" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Group id="chipGroup" height="111.33" y="44.66" anchorOffsetY="0" anchorOffsetX="0" x="11.33" width="183.67" scaleX="1" scaleY="1"/>
+		<e:Image id="myBetBg" source="wr_sz_bg_png" x="7" y="156.97999999999996" rotation="359.94" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Label id="mySelfLabel" text="99999" size="20" anchorOffsetY="0" height="23" verticalAlign="middle" anchorOffsetX="0" width="79" textAlign="center" textColor="0xf9b102" x="7.669999999999999" y="156.11" bold="true" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Label id="winScoreLabel" text="999990" size="25" anchorOffsetY="0" height="29" verticalAlign="top" anchorOffsetX="0" width="103" textAlign="center" textColor="0xF9B102" x="87" y="155.97999999999996" bold="true" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Group id="infoGroup" width="181.67" height="33.67" x="13" y="8.64" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+		<e:Label id="totalBetLabel" text="60000" size="30" anchorOffsetY="0" height="29" verticalAlign="middle" anchorOffsetX="0" left="1" width="183" bold="true" textAlign="center" touchEnabled="false" verticalCenter="0" textColor="0xffea00"/>
+		</e:Group>
 	</e:Group>
-	<wanRenDouNiu:CardResultItem id="cardResultItem" skinName="CardResultItemSkin" x="10" y="201"/>
+	<wanRenDouNiu:CardResultItem id="cardResultItem" skinName="CardResultItemSkin" y="188.94" horizontalCenter="0"/>
 </e:Skin>

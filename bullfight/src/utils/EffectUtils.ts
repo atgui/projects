@@ -100,12 +100,16 @@ class EffectUtils {
 	 * 展现牌  
 	 */
 	public static showCard(tagObjArr: Array<any>, endSkew: number, dscaleX: number, completeFun: Function, tagObj: any) {
-		var tween: TimelineLite = new TimelineLite({ onComplete: completeFun, onCompleteScope: tagObj });
-		for (var i: number = 0; i < tagObjArr.length; i++) {
-			var tagObj = tagObjArr[i];
-			tween.insert(new TweenLite(tagObj, 0.2, { skewY: endSkew, scaleX: dscaleX }));
+		try {
+			var tween: TimelineLite = new TimelineLite({ onComplete: completeFun, onCompleteScope: tagObj });
+			for (var i: number = 0; i < tagObjArr.length; i++) {
+				var tagObj = tagObjArr[i];
+				tween.insert(new TweenLite(tagObj, 0.2, { skewY: endSkew, scaleX: dscaleX }));
+			}
+			tween.play();
+		} catch (e) {
+			console.log(e);
 		}
-		tween.play();
 	}
 
 

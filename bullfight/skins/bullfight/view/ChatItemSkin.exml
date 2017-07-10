@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="ChatItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="330" height="54">
 	<e:Image source="chat_wz_bg_png" horizontalCenter="0" verticalCenter="0" width="330"/>
-	<e:Label id="txtInfoLabel" text="Label" anchorOffsetX="0" width="330" height="54" verticalAlign="middle" left="11" right="9" top="4" bottom="5" anchorOffsetY="0" textColor="0xd85c18" bold="true" size="18"/>
+	<e:Label id="txtInfoLabel" text="这里是文字这里是文字这里是文字这里是文字这里是文字这里是文字这里" anchorOffsetX="0" width="330" height="54" verticalAlign="middle" left="11" right="9" top="4" bottom="5" anchorOffsetY="0" textColor="0xd85c18" bold="true" size="18"/>
 </e:Skin>

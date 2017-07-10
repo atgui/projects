@@ -20,6 +20,8 @@ module wanRenDouNiu {
 		public cardResultItem: CardResultItem;//牌信息
 		public tIcon: eui.Image;
 
+		public cGroup: eui.Group;
+
 		public build(): void {
 			this.index = 1;
 			this.init();
@@ -47,17 +49,23 @@ module wanRenDouNiu {
 			this.tIcon.visible = v;
 		}
 
+		public touchChip() {
+			this.cGroup.scaleX = 0.9;
+			this.cGroup.scaleY = 0.9;
+			TweenMax.to(this.cGroup, 0.2, { scaleX: 1, scaleY: 1 });
+		}
+
 		public addEvent(): void {
 
 		}
 		public winScoreLabel: eui.Label;
 		public setWin(winScrore) {
-			if (winScrore >= 0) {
+			if (winScrore > 0) {
 				this.bg.source = "wr_sl_png";
 				this.winScoreLabel.text = "+" + winScrore;
 				this.winScoreLabel.textColor = 0x019917;
 			} else {
-				this.winScoreLabel.text =winScrore+"";
+				this.winScoreLabel.text = winScrore + "";
 				this.winScoreLabel.textColor = 0xBAAD8F;
 			}
 			this.winScoreLabel.visible = this.mySelfLabel.visible;

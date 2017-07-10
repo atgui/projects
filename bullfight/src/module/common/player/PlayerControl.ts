@@ -30,6 +30,7 @@ module player {
 		private _upData(playerModel: player.PlayerModel, data) {
 			var user = data.user.variables;
 			playerModel.id = user.id.value;
+			playerModel.sex = user.sex.value;
 			playerModel.username = user.username.value;
 			playerModel.email = user.email.value;
 			playerModel.nickname = user.nickname.value;

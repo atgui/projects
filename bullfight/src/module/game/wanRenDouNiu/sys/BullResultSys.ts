@@ -49,18 +49,22 @@ module wanRenDouNiu {
 
 			this._animationSys = new common.AnimationSys();
 			var cgm: CardGroupModel = bsr.getCardListById(0);
-			this._animationSys.addFun(this.showNiu, this, { bsr: bsr, ix: 0 });
-			this._animationSys.addFun(this.showNiu, this, { bsr: bsr, ix: 1 });
+			this._animationSys.addFun(this.showNiu, this, { bsr: bsr, resultItem: this._zCardItem, ix: 0 });
 
-			//金币飞出
+			for (var i: number = 1; i < 5; i++) {
+				var cgm: CardGroupModel = bsr.getCardListById(i);
+				var item = this._cardItems[i - 1].cardResultItem;
+				this._animationSys.addFun(this.showNiu, this, { ixx: i - 1, bsr: bsr, cgm: cgm, resultItem: item, ix: 1 });
+			}
+
 			this._animationSys.addFun(this._showResult, this, bsr);
 			this._animationSys.addFun(this._clearChips, this);
 
 			var __self = this;
 			setTimeout(function () {
-				__self._animationSys.next();
 				__self._lsRun(bsr.resultTime);
-			}, 1000);
+				__self._animationSys.next();
+			}, 800);
 		}
 		private _endTime: number;
 		private _lsRun(time: number) {
@@ -83,7 +87,7 @@ module wanRenDouNiu {
 				PopupManager.instance.addPop(new SettlementPopup(data));
 				__self._animationSys.next();
 				__self._downTimeGroup.visible = true;
-			}, 3000);
+			}, 1000);
 		}
 		private _clearChips() {
 			var chipsArr: Array<Array<eui.Image>> = this._view._bullChipSys.chips;
@@ -101,33 +105,39 @@ module wanRenDouNiu {
 		}
 		public showNiu(obj: any) {
 			var ix: number = obj.ix;
+			var __self = this;
 			var bsr: common.BullServer_Result = obj.bsr;
+			var item = obj.resultItem;
 			console.log(bsr);
 			if (ix == 0) {//庄
 				var cgm: CardGroupModel = bsr.getCardListById(0);
-				this._zCardItem.showCardNiu(cgm);
-				this._animationSys.next();
+				item.showCardNiu(cgm, () => {
+					console.log("庄家牌显示完成.");
+					__self._animationSys.next();
+				}, __self);
 			} else {
-				var __self = this;
-				for (var i: number = 1; i < 5; i++) {
-					(function (j) {
-						var cgm: CardGroupModel = bsr.getCardListById(j);
-						var ix = j - 1;
-						var item = __self._cardItems[ix].cardResultItem;
-						var tt = setTimeout(function () {
-							try {
-								item.showCardNiu(cgm);
-								var winScore = bsr.aeraWinInfo[ix]["winScore"];
-								__self._cardItems[ix].setWin(winScore);
-								if (j >= 4) {
-									__self._animationSys.next();
-								}
-							} catch (e) {
-								clearTimeout(tt);
-							}
-						}, j * 900);
-					})(i);
+				// for (var i: number = 1; i < 5; i++) {
+				// 	(function (j) {
+				var cgm: CardGroupModel = obj.cgm;// bsr.getCardListById(j);
+				// 		var ix = j - 1;
+				// var item = __self._cardItems[ix].cardResultItem;
+				// var tt = setTimeout(function () {
+				var ixx = obj.ixx;
+				try {
+					item.showCardNiu(cgm, () => {
+						console.log("闲家牌显示完成.");
+						var winScore = bsr.aeraWinInfo[ixx]["winScore"];
+						__self._cardItems[ixx].setWin(winScore);
+						// if (j >= 4) {
+						__self._animationSys.next();
+						// }
+					}, __self);
+				} catch (e) {
+					// clearTimeout(tt);
 				}
+				// 	}, j * 1200);
+				// })(i);
+				// }
 			}
 		}
 		public destroy() {

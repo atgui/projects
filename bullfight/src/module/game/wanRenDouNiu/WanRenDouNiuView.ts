@@ -50,12 +50,10 @@ module wanRenDouNiu {
 			this._bullResultSys = new BullResultSys(this);
 			this._bullMenuSys = new BullMenuSys(this);
 			this._bullNoticeSys = new BullNoticeSys(this);
-			// this._bullChatSys = new BullChatSys(this);
 			this._bullUpMasterSys = new BullUpMasterSys(this);
 		}
 
 		public addEvent(): void {
-			this.bg.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchView, this);
 			this.chatButton.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChatButton, this);
 			this.otherPlayer.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchOtherPlayer, this);
 
@@ -65,7 +63,6 @@ module wanRenDouNiu {
 
 		public removeEvent(): void {
 			this.removeEventListener(eui.UIEvent.COMPLETE, this._onAddToStage, this);
-			this.bg.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchView, this);
 			this.chatButton.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChatButton, this);
 			this.otherPlayer.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchOtherPlayer, this);
 
@@ -74,18 +71,19 @@ module wanRenDouNiu {
 		}
 
 		public chatView: BullChatView;
-		private _touchView(e: egret.TouchEvent) {
-			if (this.chatView) {
-				this.chatView.visible = false;
-			}
-		}
-
 		private _touchChatButton(e: egret.TouchEvent) {
 			if (!this.chatView) {
 				this.chatView = new BullChatView();
+				this.chatView.addEventListener("CHAT_DESTROY", this._destroyChat, this);
 				this.chatView.visible = false;
 			}
 			this.chatView.visible = !this.chatView.visible;
+		}
+		private _destroyChat(e: GameEvent) {
+			if (this.chatView) {
+				this.chatView.destroy();
+			}
+			this.chatView = null;
 		}
 
 		public _chatArr = new Array<BullChatInfoItem>();
@@ -96,9 +94,9 @@ module wanRenDouNiu {
 		 * 得到消息
 		 */
 		private _chatPublicMsg(e: GameEvent) {
-			// this._view.visible = false;
-
-			this.chatView.visible = false;
+			if (this.chatView) {
+				this.chatView.dispatchEvent(new GameEvent("CHAT_DESTROY"));
+			}
 			var chatModel: chat.ChatModel = e.data;
 
 			var item = new BullChatInfoItem();

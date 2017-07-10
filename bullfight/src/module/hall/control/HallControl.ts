@@ -29,11 +29,11 @@ module hall {
 		/**
 		 * 发出加入斗牛
 		 */
-		public sendJoinWanRenDouNiu(data: anchor.AnchorRoomModel) {
-			var anchorRomm: anchor.AnchorRoomModel = data;
-			wanRenDouNiu.BullControl.instance.nowAnchor=anchorRomm;
-			SFSManager.instance.sendExtension(wanRenDouNiu.BullCMD.JOIN_BULL, {});
-		}
+		// public sendJoinWanRenDouNiu(data: anchor.AnchorRoomModel) {
+		// 	var anchorRomm: anchor.AnchorRoomModel = data;
+		// 	wanRenDouNiu.BullControl.instance.nowAnchor=anchorRomm;
+		// 	SFSManager.instance.sendExtension(wanRenDouNiu.BullCMD.JOIN_BULL, {});
+		// }
 
 		/**
 		 * 发出获得公告信息
@@ -159,13 +159,13 @@ module hall {
 		/**
 		 *主播列表
 		 */
-		public hall_anchorlist(data) {
-			var infoArr: Array<any> = data[common.ServerKey.DATA];
-			var anchorList: Array<anchor.AnchorRoomModel> = new Array<anchor.AnchorRoomModel>();
-			for (var i: number = 0; i < infoArr.length; i++) {
-				anchorList[i] = new anchor.AnchorRoomModel(infoArr[i]);
-			}
-			this.hallModel.dispatchEvent(new GameEvent(HallCMD.LIVE_LIST, anchorList));
-		}
+		// public hall_anchorlist(data) {
+		// 	var infoArr: Array<any> = data[common.ServerKey.DATA];
+		// 	var anchorList: Array<anchor.AnchorRoomModel> = new Array<anchor.AnchorRoomModel>();
+		// 	for (var i: number = 0; i < infoArr.length; i++) {
+		// 		anchorList[i] = new anchor.AnchorRoomModel(infoArr[i]);
+		// 	}
+		// 	this.hallModel.dispatchEvent(new GameEvent(HallCMD.LIVE_LIST, anchorList));
+		// }
 	}
 }

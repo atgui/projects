@@ -9,11 +9,8 @@ module common {
 			return this._instance
 		}
 
-
-		public vipSys: VipSys
 		public start() {
 			this.trumpetStr = "";
-			this.vipSys = new VipSys();
 		}
 
 
@@ -88,31 +85,7 @@ module common {
 		}
 
 		//=======================得到===========================
-		/**
-		 * 请求获取VIP奖励配置列表 得到
-		 */
-		public common_VipList(data) {
-			var infoArr = data[common.ServerKey.DATA];
-			this.vipSys.dispatchEvent(new GameEvent(common.CommonCMD.VIP_LIST, infoArr))
-		}
-		/**
-		 * 请求领取VIP在线奖励  得到
-		 */
-		public common_ReveiceVip(data) {
-			this.vipSys.dispatchEvent(new GameEvent(common.CommonCMD.RECEIVE_VIP))
-		}
-		/**
-		 * 请求获取VIP时间 得到
-		 */
-		public common_VipTime(data) {
-			var boo: boolean = data[common.ServerKey.REWARD];
-			var time: number = data[common.ServerKey.TIME];
-			this.vipSys.countTime = time;
-			if (boo == true) {
-				this.vipSys.canGet();
-			}
-		}
-
+		
 		/**
 		 * 修改玩家信息
 		 */

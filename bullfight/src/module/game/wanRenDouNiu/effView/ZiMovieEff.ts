@@ -15,8 +15,8 @@ module wanRenDouNiu {
 			// this.y = LayerManager.instance.baseContainer.height / 2 - this.height;
 			this.x = -720;
 			var tween: TimelineLite = new TimelineLite({ onComplete: this._comeBack, onCompleteScope: this });
-			tween.append(new TweenLite(this, 0.2, { x: 0 }));///, ease: Back.easeOut 
-			tween.append(new TweenLite(this, 1.1, { x: 0 }));
+			tween.append(new TweenLite(this, 0.2, { x: -50 }));///, ease: Back.easeOut 
+			tween.append(new TweenLite(this, 1.1, { x: -50 }));
 			tween.append(new TweenLite(this, 0.2, { x: 720 }));//, ease: Back.easeIn 
 			// tween.append(new TweenLite(this, 0.5, { x: 0 }));
 			// tween.append(new TweenLite(this, 1, { x: 0 }));

@@ -19,36 +19,29 @@ module wanRenDouNiu {
 		public updateButton: eui.Label;
 		public clearButton: eui.Label;
 		public headerIcon: eui.Image;
+		public sexImage: eui.Image;
+		public idLabel: eui.Label;
+
+		public closeButton: eui.Image;
 
 		private _sourceStr: string;
-
-		private _sp: egret.Shape;
-
 		public build() {
 			var headStr = "";
+			var mod: player.PlayerModel = null;
 			if (this._playerModel != null) {//查看其他玩家信息
-				headStr = this._playerModel.portrait;
-				this.nickNameLabel.text = this._playerModel.nickname;
-				this.goldLabel.text = this._playerModel.goldcoins;
-				this.signatureEditableText.text = this._playerModel.signature;
-
-				this.signatureEditableText.touchEnabled=false;
+				mod = this._playerModel;
+				this.signatureEditableText.touchEnabled = false;
 			} else {
-				var playerModel = player.PlayerControl.instance.mySelf;
-				this.nickNameLabel.text = playerModel.nickname;
-				this.goldLabel.text = playerModel.goldcoins;
-				this.signatureEditableText.text = this._sourceStr = playerModel.signature;
-
-				headStr = playerModel.portrait;
+				mod = player.PlayerControl.instance.mySelf;
+				this._sourceStr = mod.signature;
 				this.addEvent();
 			}
-
-			this._sp = new egret.Shape();
-			this._sp.graphics.beginFill(0x000000);
-			this._sp.graphics.drawCircle(this.headerIcon.x + this.headerIcon.width / 2, this.headerIcon.y + this.headerIcon.height / 2, 48);
-			this._sp.graphics.endFill();
-			this.addChild(this._sp);
-			this.headerIcon.mask = this._sp;
+			headStr = mod.portrait;
+			this.nickNameLabel.text = mod.nickname;
+			this.goldLabel.text = "分数:" + mod.goldcoins;
+			this.signatureEditableText.text = mod.signature;
+			this.idLabel.text = "ID:" + mod.id;
+			this.sexImage.source = mod.sex == "0" ? "dnmain_profile_girl_png" : "dnmain_profile_boy_png";
 
 			var __self = this;
 			RES.getResByUrl(headStr, (data) => {
@@ -57,8 +50,10 @@ module wanRenDouNiu {
 
 			this.updateButton.visible = false;
 			this.clearButton.visible = false;
+			
+			this.closeButton.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchClose, this);
 		}
-		public addEvent() {
+		public addEvent() {			
 			this.signatureEditableText.addEventListener(egret.Event.FOCUS_IN, this._signatureFocusIn, this);
 			this.signatureEditableText.addEventListener(egret.Event.FOCUS_OUT, this._signatureFocusOut, this);
 			this.signatureEditableText.addEventListener(egret.Event.CHANGE, this._signatureChange, this);
@@ -66,6 +61,10 @@ module wanRenDouNiu {
 			this.updateButton.addEventListener(egret.TouchEvent.TOUCH_TAP, this._updateSignTure, this);
 			this.clearButton.addEventListener(egret.TouchEvent.TOUCH_TAP, this._clearButton, this);
 		}
+		private _touchClose(e: egret.TouchEvent) {
+			PopupManager.instance.removePop(this);
+		}
+
 		private _updateSignTure(e: egret.TouchEvent) {
 			var str: string = this.signatureEditableText.text;
 			var obj = { "signature": str };
@@ -101,6 +100,13 @@ module wanRenDouNiu {
 		}
 		public removeEvent() {
 			this.removeEventListener(eui.UIEvent.COMPLETE, this._onComplete, this);
+			this.closeButton.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchClose, this);
+			this.signatureEditableText.removeEventListener(egret.Event.FOCUS_IN, this._signatureFocusIn, this);
+			this.signatureEditableText.removeEventListener(egret.Event.FOCUS_OUT, this._signatureFocusOut, this);
+			this.signatureEditableText.removeEventListener(egret.Event.CHANGE, this._signatureChange, this);
+
+			this.updateButton.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._updateSignTure, this);
+			this.clearButton.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._clearButton, this);
 		}
 		public destroy() {
 			this.removeEvent();

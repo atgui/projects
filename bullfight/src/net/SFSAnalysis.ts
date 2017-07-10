@@ -43,12 +43,10 @@ module net {
 			switch (cmd) {
 				//信息提示
 				case wanRenDouNiu.BullCMD.TASK_MSG:
-					console.log("xxxx1");
 					common.CommonControl.instance.showServerMsg(data);
 					break;
 				//弹出框
 				case wanRenDouNiu.BullCMD.SERVER_ALERT:
-					console.log("xxxx333");
 					common.CommonControl.instance.showServerAlert(data);
 					break;
 				//牛牛上庄
@@ -131,25 +129,25 @@ module net {
 					hall.HallControl.instance.hall_shoping(data);
 					break;
 				//请求获得钻石购买
-				case hall.HallCMD.BUY_GOLDBARS:
-					hall.HallControl.instance.hall_shoping_buy_goldbrs(data);
-					break;
+				// case hall.HallCMD.BUY_GOLDBARS:
+				// 	hall.HallControl.instance.hall_shoping_buy_goldbrs(data);
+				// 	break;
 				//请求获得筹码购买
-				case hall.HallCMD.BUY_GOLDCONIS:
-					hall.HallControl.instance.hall_shoping_buy_goldcoins(data);
-					break;
+				// case hall.HallCMD.BUY_GOLDCONIS:
+				// 	hall.HallControl.instance.hall_shoping_buy_goldcoins(data);
+				// 	break;
 				//请求获得转盘转奖数据
-				case hall.HallCMD.ROTARY_PRIZE:
-					hall.HallControl.instance.hall_rotary_prize(data);
-					break;
+				// case hall.HallCMD.ROTARY_PRIZE:
+				// 	hall.HallControl.instance.hall_rotary_prize(data);
+				// 	break;
 				//请求获得邮件列表数据
 				case hall.HallCMD.EMAIL_LIST:
 					hall.HallControl.instance.hall_email_List(data);
 					break;
 				//请求获得主播列表数据
-				case hall.HallCMD.LIVE_LIST:
-					hall.HallControl.instance.hall_anchorlist(data);
-					break;
+				// case hall.HallCMD.LIVE_LIST:
+				// 	hall.HallControl.instance.hall_anchorlist(data);
+					// break;
 				//请求获得聊天信息内容
 				case chat.ChatCMD.PUBLIC_MSG:
 					chat.ChatControl.instance.chat_public_msg(data);
@@ -167,17 +165,17 @@ module net {
 					player.PlayerControl.instance.player_userInfo(data);
 					break;
 				//VIP奖励配置列表
-				case common.CommonCMD.VIP_LIST:
-					common.CommonControl.instance.common_VipList(data);
-					break;
-				//请求领取VIP在线奖励
-				case common.CommonCMD.RECEIVE_VIP:
-					common.CommonControl.instance.common_ReveiceVip(data);
-					break;
-				//请求获取VIP奖励配置列表
-				case common.CommonCMD.VIP_TIME:
-					common.CommonControl.instance.common_VipTime(data);
-					break;
+				// case common.CommonCMD.VIP_LIST:
+				// 	common.CommonControl.instance.common_VipList(data);
+				// 	break;
+				// //请求领取VIP在线奖励
+				// case common.CommonCMD.RECEIVE_VIP:
+				// 	common.CommonControl.instance.common_ReveiceVip(data);
+				// 	break;
+				// //请求获取VIP奖励配置列表
+				// case common.CommonCMD.VIP_TIME:
+				// 	common.CommonControl.instance.common_VipTime(data);
+				// 	break;
 				//修改玩家信息
 				case common.CommonCMD.MODIFY:
 					common.CommonControl.instance.common_Modify(data);

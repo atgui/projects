@@ -4,10 +4,10 @@
 	<e:Image left="0" right="0" top="0" bottom="0" source="fightbull_bg_png" />
 	<e:Group id="scaleGroup" x="0" y="0" width="720" height="1280">
 		<e:Image id="bg" source="wr_desk_bg_png" horizontalCenter="0" verticalCenter="2"/>
-		<wanRenDouNiu:CardItem id="cardItem_0" x="130" y="260" skinName="CardItemSkin" scaleX="1" scaleY="1" />
-		<wanRenDouNiu:CardItem id="cardItem_1" x="380" y="260" skinName="CardItemSkin" scaleX="1" scaleY="1" />
-		<wanRenDouNiu:CardItem id="cardItem_2" x="130" y="570" skinName="CardItemSkin" scaleX="1" scaleY="1" />
-		<wanRenDouNiu:CardItem id="cardItem_3" x="380" y="570" skinName="CardItemSkin" scaleX="1" scaleY="1" />
+		<wanRenDouNiu:CardItem id="cardItem_0" x="130" y="270" skinName="CardItemSkin" scaleX="1" scaleY="1" />
+		<wanRenDouNiu:CardItem id="cardItem_1" x="380" y="270" skinName="CardItemSkin" scaleX="1" scaleY="1" />
+		<wanRenDouNiu:CardItem id="cardItem_2" x="130" y="580" skinName="CardItemSkin" scaleX="1" scaleY="1" />
+		<wanRenDouNiu:CardItem id="cardItem_3" x="380" y="580" skinName="CardItemSkin" scaleX="1" scaleY="1" />
 		<e:Group id="downTimeGroup" height="72.27" anchorOffsetY="0" y="900" left="0" right="0">
 			<e:Image source="common_pup_png" left="0" right="0" top="0" bottom="0" scale9Grid="29,40,77,118" visible="false"/>
 			<e:BitmapLabel id="downTimeLabel" x="385" text="11" anchorOffsetX="0" anchorOffsetY="0" height="28" width="103" verticalCenter="-0.134999999999998" font="font_wr_fnt"/>

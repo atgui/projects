@@ -11,7 +11,7 @@ module wanRenDouNiu {
 		private vipicon: eui.Image;//等级图标
 		private nickNameLabel: eui.Label;//昵称
 		private goldLabel: eui.Label;//金币
-		private headIcon:common.CommonHead;//头像
+		// private headIcon:common.CommonHead;//头像
 		public build(): void {
 			this.addEvent();
 		}

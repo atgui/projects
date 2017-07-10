@@ -38,11 +38,15 @@ module wanRenDouNiu {
 		}
 
 		private _touchThis(e: egret.TouchEvent) {
-			this.visible = false;
+			this.dispatchEvent(new GameEvent("CHAT_DESTROY"));
 		}
 
 		public destroy() {
 			this.removeEvent();
+			if(this.sp){
+				this.sp.graphics.clear();
+			}
+			this.sp=null;
 			if (this._bullChatSys) {
 				this._bullChatSys.destroy();
 			}

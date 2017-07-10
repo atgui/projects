@@ -39,7 +39,7 @@ module wanRenDouNiu {
 			this._otherPlayer = this._view["otherPlayer"];
 
 			this._chipItemArr = new Array<ChipItem>();
-			var chipArr = [10, 30, 50, 100, 300];
+			var chipArr = [1, 10, 100, 1000, 10000];
 			var chipGroup: eui.Group = new eui.Group();
 			for (var i: number = 0; i < chipArr.length; i++) {
 				var item: ChipItem = this._view["chipItem_" + i];// new ChipItem(chipArr[i], "blackjack_chips_" + chipArr[i] + "_png");
@@ -93,8 +93,6 @@ module wanRenDouNiu {
 		//所有玩家下注
 		private _allDownBet(e: GameEvent) {
 			var objList: common.BullServer_bull_all_downbet = e.data;
-			// console.log("下注列表");
-			console.log(objList);
 
 			var username = player.PlayerControl.instance.mySelf.username;
 			//给每个区域赋值
@@ -110,14 +108,11 @@ module wanRenDouNiu {
 				var key = obj["1"] - 1;
 				numArr[key] += obj["2"];
 			}
-			var hPoint = this._otherPlayer.parent.localToGlobal(this._otherPlayer.x, this._otherPlayer.y);
+			// var hPoint = this._otherPlayer.parent.localToGlobal(this._otherPlayer.x, this._otherPlayer.y);
 			var __self = this;
-
-			console.log(numArr);
-
 			for (var i: number = 0; i < numArr.length; i++) {
 				var len = 0;
-				if (numArr[i] <= 10 && numArr[i] > 0) {
+				if (numArr[i] < 10 && numArr[i] > 0) {
 					len = 2;
 				} else if (numArr[i] > 10 && numArr[i] <= 100) {
 					len = 3;
@@ -129,26 +124,38 @@ module wanRenDouNiu {
 				(function (l, ix) {
 					let lx = l;
 					setTimeout(function () {
-						__self._createOtherChip(lx, ix, hPoint);
+						__self._createOtherChip(lx, ix);
 					}, i * 100);
 				})(len, i);
 			}
 		}
 
-		private _createOtherChip(len: number, ix: number, hPoint: { x: number, y: number }) {
-			var vPoint = hPoint;//this._otherPlayer.parent.localToGlobal(this._otherPlayer.x, this._otherPlayer.y);
+		private _createOtherChip(len: number, ix: number, hPoint?: { x: number, y: number }) {
+			// var vPoint = hPoint;
 			var __self = this;
 			for (var i: number = 0; i < len; i++) {
 				(function (j) {
 					var tN = setTimeout(function () {
 						try {
+							var vvv = Math.floor(Math.random() * 3);
+							var vPoint = { x: 0, y: 0 };
+							if (vvv == 0) {//x<0 y 0~600
+								vPoint.x = 0 - Math.floor(Math.random() * 10);
+								vPoint.y = NumberUtils.random(0, 600);
+							} else if (vvv == 1) {//x 0-720 y<0
+								vPoint.x = NumberUtils.random(0, 720);
+								vPoint.y = 0 - Math.floor(Math.random() * 10);
+							} else if (vvv == 2) {//x>720 y 0~600
+								vPoint.x = 720 - Math.floor(Math.random() * 10);
+								vPoint.y = NumberUtils.random(0, 600);
+							}
+
 							var img = new eui.Image();
 							img.source = "common_gold_png";
 							__self._view.addChild(img);
 							img.width = 30;
 							img.height = 30;
 							img.touchEnabled = false;
-							// var key = parseInt(obj.nowBetKey);
 							if (!__self.chips[ix]) {
 								__self.chips[ix] = new Array<eui.Image>();
 							}
@@ -177,13 +184,6 @@ module wanRenDouNiu {
 
 		public init() {
 			this._downTimeGroup.visible = false;
-			// var item: ChipItem = this._chipItemArr[0];
-			// this._currentBetNum = item.chipNum;
-			// for (var i: number = 0; i < this._chipItemArr.length; i++) {
-			// 	this._chipItemArr[i].source = "blackjack_chips_" + this._chipItemArr[i].chipNum + "_png";
-			// }
-			// this._currentItem = item;
-			// this._currentItem.source = "blackjack_chips_check_" + this._currentBetNum + "_png";
 		}
 
 
@@ -276,11 +276,11 @@ module wanRenDouNiu {
 				var maxY = cardItem.chipGroup.height - img.height - 20;
 				var toY: number = NumberUtils.random(minY, maxY);
 
-				var X = cPoint.x + toX + 10;
+				var X = cPoint.x + toX + 20;
 				if (X > cPoint.x + cardItem.chipGroup.width - 25) {
 					X = cPoint.x + cardItem.chipGroup.width - 25;
 				}
-				var Y = cPoint.y + toY + 73;
+				var Y = cPoint.y + toY + 53;
 				if (Y > cPoint.y + 43 + cardItem.chipGroup.height) {
 					Y > cPoint.y + 43 + cardItem.chipGroup.height;
 				}
@@ -299,6 +299,8 @@ module wanRenDouNiu {
 		//点击下注
 		private _touchCardItem(e: egret.TouchEvent) {
 			var ix: number = this._cardItems.indexOf(e.currentTarget.parent);
+			this._cardItems[ix].touchChip();
+
 			var keyStr = (ix + 1) + "";
 			wanRenDouNiu.BullControl.instance.send_bull_downbet(keyStr, this._currentBetNum);
 		}
@@ -326,12 +328,12 @@ module wanRenDouNiu {
 		}
 		public betAddEvent() {
 			for (var i: number = 0; i < this._cardItems.length; i++) {
-				this._cardItems[i].chipGroup.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchCardItem, this);
+				this._cardItems[i].cGroup.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchCardItem, this);
 			}
 		}
 		public betRemoveEvent() {
 			for (var i: number = 0; i < this._cardItems.length; i++) {
-				this._cardItems[i].chipGroup.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchCardItem, this);
+				this._cardItems[i].cGroup.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchCardItem, this);
 			}
 		}
 

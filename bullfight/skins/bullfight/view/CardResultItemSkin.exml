@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="CardResultItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Group id="cardGroup" height="101" anchorOffsetY="0" anchorOffsetX="0" width="187.33" horizontalCenter="0" verticalCenter="0">
-		<e:Image id="card_0" x="0" y="0" source="card_bg_png" width="80" height="100"/>
-		<e:Image id="card_1" x="29.33" y="0" width="80" height="100" source="card_bg_png"/>
-		<e:Image id="card_2" x="57.7" y="0" width="80" height="100" source="card_bg_png"/>
-		<e:Image id="card_3" x="84" y="0" width="80" height="100" source="card_bg_png"/>
-		<e:Image id="card_4" y="0" width="80" height="100" source="card_bg_png" x="108"/>
-		<e:Group id="niuGroup" width="186" anchorOffsetX="0" anchorOffsetY="0" bottom="-0.19999999999998863" horizontalCenter="0" height="66" x="99" y="35.19999999999999" scaleX="1" scaleY="1">
+<e:Skin class="CardResultItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="200">
+	<e:Group id="cardGroup" height="101" anchorOffsetY="0" anchorOffsetX="0" width="198.33" verticalCenter="0" x="0">
+		<e:Image id="card_0" x="40" y="50" source="card_bg_png" width="80" height="100" anchorOffsetX="40" anchorOffsetY="50"/>
+		<e:Image id="card_1" x="70" y="50" width="80" height="100" source="card_bg_png" anchorOffsetX="40" anchorOffsetY="50"/>
+		<e:Image id="card_2" x="100" y="50" width="80" height="100" source="card_bg_png" anchorOffsetY="50" anchorOffsetX="40"/>
+		<e:Image id="card_3" x="130" y="50" width="80" height="100" source="card_bg_png" anchorOffsetY="50" anchorOffsetX="40"/>
+		<e:Image id="card_4" y="50" width="80" height="100" source="card_bg_png" x="160" anchorOffsetY="50" anchorOffsetX="40"/>
+		<e:Group id="niuGroup" width="191" anchorOffsetX="0" anchorOffsetY="0" bottom="0" height="66" y="35.19999999999999" scaleX="1" scaleY="1" horizontalCenter="0">
 			<e:Image source="tishidi_png" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
 			<e:Image id="niuImage" source="blnn_ftp_1_png" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" horizontalCenter="0"/>
 		</e:Group>

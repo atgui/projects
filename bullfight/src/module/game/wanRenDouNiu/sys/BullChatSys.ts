@@ -20,8 +20,11 @@ module wanRenDouNiu {
 
 		private _wzCacheArr: Array<any>;
 
+		private _chatItems: Array<IChat>;
+
 		public build() {
-			this._wzCacheArr = new Array<any>();
+			this._chatItems = new Array<IChat>();
+			this._wzCacheArr = BullControl.instance.cacheArr;
 
 			this._chatGroup = this._view["chatGroup"];
 			this._chatInfoGroup = new eui.Group();
@@ -51,52 +54,53 @@ module wanRenDouNiu {
 				var row: number = Math.floor((i - 1) / 3);
 				bqItem.x = col * (bqItem.width + 20) + 30;
 				bqItem.y = row * bqItem.height;
+				this._chatItems.push(bqItem);
 			}
 
 			this._chatScrollerArr[0].viewport = bqGroup;
 
 			var wzGroup: eui.Group = new eui.Group();
 			var infos = ["在充三万又何妨", "在充三千又何妨", "在充三十万又何妨", "在充三亿万又何妨", "在充三百又何妨", "在充三十亿又何妨"];
+			var ix: number = 0;
 			for (var i: number = 0; i < infos.length; i++) {
 				var item = new ChatItem();
 				wzGroup.addChild(item);
 				item.txtInfoLabel.text = infos[i];
-				item.y = i * item.height + 10;
-			}
-
-			//自定义文字信息
-			var wzStr = egret.localStorage.getItem("wz");
-			if (wzStr) {
-				this._wzCacheArr = JSON.parse(wzStr);
+				item.y = ix * item.height + 10;
+				ix++;
+				this._chatItems.push(item);
 			}
 			for (var i: number = 0; i < this._wzCacheArr.length; i++) {
 				var item = new ChatItem();
-				wzGroup.addChild(this._wzCacheArr[i]);
+				wzGroup.addChild(item);
 				item.txtInfoLabel.text = this._wzCacheArr[i];
-				item.y = i * item.height + 10;
+				item.y = ix * item.height + 10;
+				ix++;
+				this._chatItems.push(item);
 			}
 
-			this._chatScrollerArr[1].viewport = wzGroup;
+			var item = new ChatItem();
+			wzGroup.addChild(item);
+			item.type = 1;
+			item.txtInfoLabel.text = "自定义";
+			item.y = ix * item.height + 10;
+			this._chatItems.push(item);
 
-			// this._chatArr = new Array<BullChatInfoItem>();
+			this._chatScrollerArr[1].viewport = wzGroup;
 			this.addEvent();
 		}
 		public addEvent() {
 			for (var i: number = 0; i < this._chatTaps.length; i++) {
 				this._chatTaps[i].addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChatTap, this);
 			}
-
-			// this._bg.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchView, this);
 			this._chatSendButton.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChatSend, this);
-			// this._chatButton.addEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChat, this);
-
-			// var chatModel = chat.ChatControl.instance.chatModel;
-			// chatModel.addEventListener(chat.ChatCMD.PUBLIC_MSG, this._chatPublicMsg, this);
 		}
 		public removeEvent() {
 			this._chatSendButton.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChatSend, this);
-
-
+			for (var i: number = 0; i < this._chatTaps.length; i++) {
+				this._chatTaps[i].removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChatTap, this);
+			}
+			this._chatSendButton.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchChatSend, this);
 		}
 
 		//点击切换
@@ -128,47 +132,13 @@ module wanRenDouNiu {
 			var info = { "3": "xxxxx", "4": "vvvvv", "0": str, "27": "1", "28": "10" };
 			chat.ChatControl.instance.chat_public_msg(info);
 		}
-		// /**
-		//  * 得到消息
-		//  */
-		// private _chatPublicMsg(e: GameEvent) {
-		// 	// this._view.visible = false;
-
-		// 	this._chatGroup.visible = false;
-		// 	var chatModel: chat.ChatModel = e.data;
-
-		// 	var item = new BullChatInfoItem();
-		// 	this._chatInfoGroup.addChild(item);
-		// 	item.addEventListener("DESTROY_CHAT_ITEM", this._destroyChatItem, this);
-		// 	item.update(chatModel);
-		// 	this._chatArr.push(item);
-		// 	if (this._chatArr.length > 4) {
-		// 		var item1 = this._chatArr.shift();
-		// 		item1.removeEventListener("DESTROY_CHAT_ITEM", this._destroyChatItem, this);
-		// 		item1.destroy();
-		// 	}
-		// 	this._updatePos();
-		// }
-		// private _updatePos() {
-		// 	var h = 0;
-		// 	for (var i: number = 0; i < this._chatArr.length; i++) {
-		// 		this._chatArr[i].y = h;
-		// 		h += this._chatArr[i].height;
-		// 	}
-		// }
-		// private _destroyChatItem(e: GameEvent) {
-		// 	var item1: BullChatInfoItem = e.data;
-		// 	var ix = this._chatArr.indexOf(item1);
-		// 	if (ix >= 0) {
-		// 		var item = this._chatArr[ix];
-		// 		item.removeEventListener("DESTROY_CHAT_ITEM", this._destroyChatItem, this);
-		// 		item.destroy();
-		// 		this._chatArr.splice(ix, 1);
-		// 	}
-		// 	this._updatePos();
-		// }
 		public destroy() {
 			this.removeEvent();
+			for (var i: number = this._chatItems.length - 1; i >= 0; i--) {
+				this._chatItems[i].destroy();
+				this._chatItems.splice(i, 1);
+			}
+			this._chatItems=[];
 			this._view = null;
 		}
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="PromptPopupSkin" width="550" height="320" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="dnmain_shading_pramt_bg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image left="0" right="0" top="0" bottom="0" source="dnmain_shading_pramt_bg_png"/>
 	<e:Label id="infoLabel" text="提示信息" y="91" width="461" textAlign="center" fontFamily="Microsoft YaHei" size="26" bold="true" horizontalCenter="0.5" anchorOffsetX="0" anchorOffsetY="0" height="95"/>
 	<e:Button id="enterBt" label="" y="198" horizontalCenter="0.5">
 		<e:skinName>

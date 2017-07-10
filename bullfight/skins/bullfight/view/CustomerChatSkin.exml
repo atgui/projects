@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomerChatSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="226">
+	<e:Image source="common_prompt_bg_png" horizontalCenter="0" anchorOffsetY="0" height="219" verticalCenter="0"/>
+	<e:Label text="请输入自定义内容,最多不超过32字" x="38" y="42" bold="true" anchorOffsetX="0" width="327" size="20"/>
+	<e:Image source="player_input_bg_png" x="35" y="71" scale9Grid="47,14,289,14" anchorOffsetY="0" height="67"/>
+	<e:Image id="okButton" source="player_save_png" x="181" y="152"/>
+	<e:Image id="closeButton" source="common_close_png" x="396.67" y="-7"/>
+	<e:EditableText id="customerEditableText" width="369.67" height="52.67" text="这里是文字哈哈哈这里是文字哈哈哈这里是文字哈哈哈这里是文字哈哈哈" x="41" y="77" anchorOffsetX="0" anchorOffsetY="0" border="false" borderColor="0x000000" multiline="true" lineSpacing="5" size="20" verticalAlign="middle"/>
+</e:Skin>

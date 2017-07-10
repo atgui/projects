@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="PlayerInfoPopupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="wr_otherPlayer_bg_png" horizontalCenter="0" verticalCenter="0"/>
-	<e:Image id="headerIcon" source="header_png" x="62" y="91" width="96" height="96"/>
-	<e:Label id="nickNameLabel" text="Label" x="189" y="89" anchorOffsetY="0" height="34.55" anchorOffsetX="0" width="383.09"/>
-	<e:Label id="goldLabel" text="Label" x="189" y="138.5" anchorOffsetY="0" height="34.55" anchorOffsetX="0" width="383.09"/>
-	<e:EditableText id="signatureEditableText" width="446.97" height="143.94" text="Label" x="109.5" y="276" anchorOffsetX="0" multiline="true" anchorOffsetY="0" border="true" lineSpacing="5" prompt="修改签名,24字以内" promptColor="0x000000"/>
-	<e:Label text="个性签名" x="114" y="232.16"/>
-	<e:Label id="updateButton" text="修改" x="440" y="443.64" background="true" backgroundColor="0x000000" bold="true" border="true"/>
-    <e:Label id="clearButton" text="取消" x="517.47" y="443.64" background="true" backgroundColor="0x000000" bold="true" border="true"/>
+<e:Skin class="PlayerInfoPopupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="436.3" height="285.52">
+	<e:Image source="common_prompt_bg_png" scale9Grid="54,31,328,188" anchorOffsetY="0" height="284.85" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="headerIcon" x="23.51" y="23.42" width="96" height="96" source="player_header_png"/>
+	<e:Label id="nickNameLabel" text="微微一笑" x="135" y="17.21" anchorOffsetY="0" height="22" anchorOffsetX="0" width="255" size="22" verticalAlign="middle" bold="true"/>
+	<e:Label id="sexLabel" text="性别：" x="135" y="44.07" anchorOffsetY="0" height="20" anchorOffsetX="0" size="20" verticalAlign="middle" bold="true"/>
+	<e:Label id="idLabel" text="ID:09dfdsx" x="135" y="71.41" anchorOffsetY="0" anchorOffsetX="0" width="255" size="20" bold="true"/>
+	<e:Label id="goldLabel" text="分数:" x="135" y="98.14" anchorOffsetY="0" anchorOffsetX="0" width="255" size="20" bold="true" textColor="0xf7c420"/>
+	<e:Label text="个性签名" x="44.16" y="135.09" textColor="0xf7c420" bold="true" size="20"/>
+	<e:Image id="sexImage" source="dnmain_profile_girl_png" x="195.44" y="41.9" anchorOffsetX="0" width="20" anchorOffsetY="0" height="26"/>
+	<e:Image id="closeButton" source="common_close_png" x="390" y="-8.93"/>
+	<e:Image id="updateButton" source="player_save_png" x="193.39" y="216.78"/>
+	<e:Image id="clearButton" source="player_cancel_png" x="307.2" y="216.79"/>
+	<e:Image source="player_input_bg_png" x="38" y="161" scale9Grid="101,20,215,7" anchorOffsetX="0" width="369.36" anchorOffsetY="0"/>
+	<e:EditableText id="signatureEditableText" width="365.15" height="40.91" text="Label" x="41.18" y="162.24" anchorOffsetX="0" multiline="true" anchorOffsetY="0" border="false" lineSpacing="5" prompt="修改签名,24字以内" promptColor="0x000000" size="20" verticalAlign="middle" textColor="0x000000"/>
 </e:Skin>

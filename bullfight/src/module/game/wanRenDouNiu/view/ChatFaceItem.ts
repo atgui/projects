@@ -1,5 +1,5 @@
 module wanRenDouNiu {
-	export class ChatFaceItem extends eui.Image {
+	export class ChatFaceItem extends eui.Image implements IChat {
 		public constructor(n: string) {
 			super(n);
 			this.faceStr = n;
@@ -18,6 +18,12 @@ module wanRenDouNiu {
 			// chat.ChatControl.instance.send_public_msg(str);
 			var info = { "3": "xxxxx", "4": "vvvvv", "0": str, "27": "1", "28": "10" };
 			chat.ChatControl.instance.chat_public_msg(info);
+		}
+		public destroy() {
+			this.removeEventListener(egret.TouchEvent.TOUCH_TAP, this._touchThis, this);
+			if (this && this.parent) {
+				this.parent.removeChild(this);
+			}
 		}
 	}
 }

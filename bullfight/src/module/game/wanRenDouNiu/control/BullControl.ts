@@ -10,9 +10,18 @@ module wanRenDouNiu {
 		public BullModel: wanRenDouNiu.BullModel;
 		public seatInfoArr: Array<string>;//座位信息集合
 		public bimod: common.BankerInfoModel;
-		public nowAnchor: anchor.AnchorRoomModel;
+
+		public cacheArr: Array<any>;
 
 		public start() {
+			//自定义文字信息
+			var wzStr = egret.localStorage.getItem("wz_cache");
+			if (wzStr) {
+				this.cacheArr = JSON.parse(wzStr);
+			} else {
+				this.cacheArr = [];
+			}
+
 			this.BullModel = new wanRenDouNiu.BullModel();
 			this.seatInfoArr = new Array<string>();
 			this.bimod = new common.BankerInfoModel();
